@@ -1,0 +1,1252 @@
+{
+ "schemaVersion": 1,
+ "tools": [
+  {
+   "github": "https://github.com/langfuse/langfuse",
+   "caveats": null,
+   "aieIntegration": "documented",
+   "lastVerified": "2026-10-23",
+   "slug": "langfuse",
+   "name": "Langfuse",
+   "category": "llm-observability",
+   "summary": "Open-source LLM engineering platform: tracing, prompt management, evals, and token/cost tracking per trace, user and model.",
+   "workloads": [
+    "api-inference",
+    "self-hosted-inference",
+    "agents"
+   ],
+   "measures": [
+    "Token usage per generation (input/output/cached/reasoning, as reported by SDKs or inferred)",
+    "Latency per span",
+    "Trace/session/user attribution"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Calculates cost from usage × model price definitions (built-in or custom); can also ingest provider-reported cost. Not reconciled with invoices.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "saas",
+    "self-hosted"
+   ],
+   "licenseType": "open-core",
+   "license": "MIT (core); enterprise features under commercial licence",
+   "integrations": [
+    "Python/JS SDK",
+    "OpenTelemetry",
+    "OpenAI SDK",
+    "LangChain",
+    "LlamaIndex",
+    "LiteLLM"
+   ],
+   "platforms": [
+    "Docker",
+    "Kubernetes",
+    "Langfuse Cloud"
+   ],
+   "website": "https://langfuse.com/",
+   "docs": "https://langfuse.com/docs/observability/features/token-and-cost-tracking",
+   "install": "docker compose up  (self-host)  ·  pip install langfuse",
+   "exportApi": "Public REST API (traces, observations, metrics); data exports",
+   "pricing": "Free self-hosted OSS; Cloud has free and paid tiers (see website)"
+  },
+  {
+   "github": "https://github.com/BerriAI/litellm",
+   "caveats": "Prometheus metrics availability has varied by edition/version; check the docs for your release.",
+   "aieIntegration": "documented",
+   "lastVerified": "2026-10-23",
+   "slug": "litellm",
+   "name": "LiteLLM Proxy",
+   "category": "llm-observability",
+   "summary": "OpenAI-compatible gateway to 100+ LLM APIs with per-key/team/user spend tracking, budgets and Prometheus metrics.",
+   "workloads": [
+    "api-inference",
+    "self-hosted-inference",
+    "agents"
+   ],
+   "measures": [
+    "Requests and tokens per model/key/team",
+    "Latency and failures",
+    "Spend per key/team/user (computed)"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Spend computed from LiteLLM's model price map (the same map AI Economics ingests) or custom prices; not invoice-reconciled.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "saas"
+   ],
+   "licenseType": "open-core",
+   "license": "MIT (core); enterprise directory under commercial licence",
+   "integrations": [
+    "Prometheus /metrics",
+    "Langfuse",
+    "OpenTelemetry",
+    "Postgres spend logs"
+   ],
+   "platforms": [
+    "Docker",
+    "Kubernetes",
+    "Python"
+   ],
+   "website": "https://www.litellm.ai/",
+   "docs": "https://docs.litellm.ai/docs/proxy/prometheus",
+   "install": "pip install \"litellm[proxy]\"  ·  litellm --config config.yaml",
+   "exportApi": "Spend logs API; Prometheus metrics; callbacks to observability tools",
+   "pricing": "Open source; enterprise licence for advanced features"
+  },
+  {
+   "github": "https://github.com/Helicone/helicone",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "helicone",
+   "name": "Helicone",
+   "category": "llm-observability",
+   "summary": "Open-source LLM observability via proxy or async logging, with request-level cost, latency and usage dashboards.",
+   "workloads": [
+    "api-inference",
+    "agents"
+   ],
+   "measures": [
+    "Tokens per request",
+    "Latency",
+    "Request metadata, users, sessions"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Cost computed from Helicone's open-source cost registry of provider prices.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "saas",
+    "self-hosted"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "Proxy base-URL swap",
+    "Async SDK logging",
+    "OpenAI/Anthropic/Gemini SDKs"
+   ],
+   "platforms": [
+    "Docker",
+    "Helicone Cloud"
+   ],
+   "website": "https://www.helicone.ai/",
+   "docs": "https://docs.helicone.ai/",
+   "install": "Point your SDK base URL at the Helicone gateway, or self-host with Docker",
+   "exportApi": "REST API and data export",
+   "pricing": "Free tier; paid plans (see website)"
+  },
+  {
+   "github": "https://github.com/openlit/openlit",
+   "caveats": null,
+   "aieIntegration": "adapter",
+   "lastVerified": "2026-10-23",
+   "slug": "openlit",
+   "name": "OpenLIT",
+   "category": "llm-observability",
+   "summary": "OpenTelemetry-native observability for LLM apps and GPUs: traces, token usage, cost estimates and GPU metrics.",
+   "workloads": [
+    "api-inference",
+    "self-hosted-inference",
+    "agents",
+    "gpu-monitoring"
+   ],
+   "measures": [
+    "GenAI spans with token usage (OTel semantic conventions)",
+    "GPU utilization, memory, power, temperature (via GPU collector)"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Estimates LLM cost from a pricing JSON that can be customised.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "OpenTelemetry (OTLP)",
+    "Python/TS SDK auto-instrumentation",
+    "ClickHouse",
+    "Grafana"
+   ],
+   "platforms": [
+    "Docker",
+    "Kubernetes"
+   ],
+   "website": "https://openlit.io/",
+   "docs": "https://docs.openlit.io/",
+   "install": "pip install openlit  ·  openlit.init(otlp_endpoint=...)",
+   "exportApi": "Standard OTLP export to any OTel backend",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/mlflow/mlflow",
+   "caveats": "Feature set evolves quickly between versions.",
+   "aieIntegration": "documented",
+   "lastVerified": "2026-10-23",
+   "slug": "mlflow-genai",
+   "name": "MLflow GenAI tracing",
+   "category": "llm-observability",
+   "summary": "MLflow's tracing for GenAI apps records spans with token usage; recent versions add cost tracking per trace.",
+   "workloads": [
+    "api-inference",
+    "agents"
+   ],
+   "measures": [
+    "Token usage per span/trace",
+    "Latency",
+    "Inputs/outputs (configurable)"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Cost calculation is version-dependent; verify in the docs for your MLflow version.",
+   "liveMonitoring": false,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "saas"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "Autologging for OpenAI, Anthropic, LangChain, etc.",
+    "OpenTelemetry export"
+   ],
+   "platforms": [
+    "Python",
+    "Databricks (managed)"
+   ],
+   "website": "https://mlflow.org/",
+   "docs": "https://mlflow.org/docs/latest/genai/tracing/token-usage-cost/",
+   "install": "pip install mlflow  ·  mlflow.openai.autolog()",
+   "exportApi": "MLflow REST API; trace search API",
+   "pricing": "Open source; managed offerings by vendors"
+  },
+  {
+   "github": "https://github.com/langchain-ai/langsmith-sdk",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "langsmith",
+   "name": "LangSmith",
+   "category": "llm-observability",
+   "summary": "Commercial tracing, evaluation and monitoring platform from LangChain, with token and cost tracking per trace.",
+   "workloads": [
+    "api-inference",
+    "agents"
+   ],
+   "measures": [
+    "Token usage",
+    "Latency",
+    "Errors and feedback"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Cost derived from token usage and model pricing configuration.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "saas",
+    "self-hosted"
+   ],
+   "licenseType": "commercial",
+   "license": "Proprietary (SDKs MIT)",
+   "integrations": [
+    "LangChain/LangGraph",
+    "Python/JS SDK",
+    "OpenTelemetry"
+   ],
+   "platforms": [
+    "LangSmith Cloud",
+    "Self-hosted (enterprise)"
+   ],
+   "website": "https://www.langchain.com/langsmith",
+   "docs": "https://docs.langchain.com/langsmith/home",
+   "install": "pip install langsmith  ·  set LANGSMITH_API_KEY",
+   "exportApi": "REST API; dataset/run export",
+   "pricing": "Free developer tier; paid plans (see website)"
+  },
+  {
+   "github": "https://github.com/Arize-ai/phoenix",
+   "caveats": "Elastic License 2.0 is source-available with restrictions on offering it as a managed service.",
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "arize-phoenix",
+   "name": "Arize Phoenix",
+   "category": "llm-observability",
+   "summary": "Open-source AI observability and evaluation built on OpenTelemetry/OpenInference tracing.",
+   "workloads": [
+    "api-inference",
+    "agents"
+   ],
+   "measures": [
+    "Spans with token counts",
+    "Latency",
+    "Evaluation results"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Cost tracking available in recent releases; version-dependent.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "saas"
+   ],
+   "licenseType": "open-source",
+   "license": "Elastic License 2.0",
+   "integrations": [
+    "OpenInference instrumentations",
+    "OTLP"
+   ],
+   "platforms": [
+    "Docker",
+    "Python",
+    "Phoenix Cloud"
+   ],
+   "website": "https://phoenix.arize.com/",
+   "docs": "https://arize.com/docs/phoenix",
+   "install": "pip install arize-phoenix  ·  phoenix serve",
+   "exportApi": "REST/GraphQL API; span export",
+   "pricing": "Free self-hosted; hosted options"
+  },
+  {
+   "github": "https://github.com/Portkey-AI/gateway",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "portkey",
+   "name": "Portkey",
+   "category": "llm-observability",
+   "summary": "AI gateway with routing, fallbacks, budgets and an observability layer that tracks cost per request.",
+   "workloads": [
+    "api-inference",
+    "agents"
+   ],
+   "measures": [
+    "Requests, tokens, latency per provider/model",
+    "Metadata attribution"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Cost from gateway pricing tables per provider/model.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "saas",
+    "self-hosted"
+   ],
+   "licenseType": "open-core",
+   "license": "Gateway MIT; platform commercial",
+   "integrations": [
+    "OpenAI-compatible gateway",
+    "SDKs",
+    "OpenTelemetry"
+   ],
+   "platforms": [
+    "Portkey Cloud",
+    "Docker/Node (gateway)"
+   ],
+   "website": "https://portkey.ai/",
+   "docs": "https://portkey.ai/docs",
+   "install": "npx @portkey-ai/gateway  (OSS gateway)",
+   "exportApi": "Analytics and logs APIs",
+   "pricing": "Free tier; paid plans (see website)"
+  },
+  {
+   "github": "https://github.com/wandb/wandb",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "wandb",
+   "name": "Weights & Biases",
+   "category": "experiment-tracking",
+   "summary": "Experiment tracking with automatic system metrics (GPU utilization, memory, power) and Weave for LLM traces and cost.",
+   "workloads": [
+    "pretraining",
+    "fine-tuning",
+    "rl",
+    "api-inference",
+    "gpu-monitoring"
+   ],
+   "measures": [
+    "Training metrics (loss, reward, lr)",
+    "System metrics: GPU util, memory, power, temperature",
+    "LLM token usage (Weave)"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Weave estimates LLM API cost; training runs log GPU time but no dollar cost; join with a GPU price to compute.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "saas",
+    "self-hosted"
+   ],
+   "licenseType": "commercial",
+   "license": "Proprietary platform; client SDK MIT",
+   "integrations": [
+    "PyTorch, Lightning, HF Transformers, TRL",
+    "Weave SDK"
+   ],
+   "platforms": [
+    "W&B Cloud",
+    "Dedicated/self-managed"
+   ],
+   "website": "https://wandb.ai/",
+   "docs": "https://docs.wandb.ai/",
+   "install": "pip install wandb  ·  wandb.init(project=...)",
+   "exportApi": "Public API (runs, history, system metrics); CSV export",
+   "pricing": "Free personal tier; team/enterprise plans"
+  },
+  {
+   "github": "https://github.com/mlflow/mlflow",
+   "caveats": null,
+   "aieIntegration": "adapter",
+   "lastVerified": "2026-10-23",
+   "slug": "mlflow-tracking",
+   "name": "MLflow Tracking",
+   "category": "experiment-tracking",
+   "summary": "Open-source run tracking for parameters, metrics and artifacts, with optional system-metrics logging (CPU/GPU).",
+   "workloads": [
+    "pretraining",
+    "fine-tuning",
+    "rl",
+    "gpu-monitoring"
+   ],
+   "measures": [
+    "Run metrics history",
+    "Params & artifacts",
+    "System metrics incl. GPU utilization/memory (when enabled)"
+   ],
+   "costCapability": "none",
+   "costNotes": "No cost calculation; AI Economics multiplies run duration/GPU-hours by your rate.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "saas",
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "REST API",
+    "Python/R/Java clients",
+    "Autologging"
+   ],
+   "platforms": [
+    "Any (Python)",
+    "Databricks"
+   ],
+   "website": "https://mlflow.org/",
+   "docs": "https://mlflow.org/docs/latest/ml/tracking/",
+   "install": "pip install mlflow  ·  mlflow server",
+   "exportApi": "REST API: runs/get, metrics/get-history",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/tensorflow/tensorboard",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "tensorboard",
+   "name": "TensorBoard",
+   "category": "experiment-tracking",
+   "summary": "Visualization toolkit for training scalars, histograms and profiles; works with TensorFlow and PyTorch.",
+   "workloads": [
+    "pretraining",
+    "fine-tuning",
+    "rl",
+    "profiling"
+   ],
+   "measures": [
+    "Logged scalars (loss, throughput)",
+    "Profiler traces (with plugin)"
+   ],
+   "costCapability": "none",
+   "costNotes": "Measurements only.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "torch.utils.tensorboard",
+    "tf.summary"
+   ],
+   "platforms": [
+    "Python"
+   ],
+   "website": "https://www.tensorflow.org/tensorboard",
+   "docs": "https://www.tensorflow.org/tensorboard/get_started",
+   "install": "pip install tensorboard  ·  tensorboard --logdir runs",
+   "exportApi": "Event files; CSV/JSON download per scalar",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/comet-ml/opik",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "comet",
+   "name": "Comet (incl. Opik)",
+   "category": "experiment-tracking",
+   "summary": "Experiment management with system metrics; its open-source Opik project traces LLM apps with token and cost tracking.",
+   "workloads": [
+    "pretraining",
+    "fine-tuning",
+    "api-inference",
+    "agents"
+   ],
+   "measures": [
+    "Experiment metrics",
+    "System/GPU metrics",
+    "LLM spans and tokens (Opik)"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Opik estimates LLM cost; training cost not computed.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "saas",
+    "self-hosted"
+   ],
+   "licenseType": "open-core",
+   "license": "Opik Apache-2.0; Comet platform commercial",
+   "integrations": [
+    "Python SDK",
+    "OpenTelemetry (Opik)",
+    "framework integrations"
+   ],
+   "platforms": [
+    "Comet Cloud",
+    "Self-hosted"
+   ],
+   "website": "https://www.comet.com/",
+   "docs": "https://www.comet.com/docs/v2/",
+   "install": "pip install comet_ml  ·  pip install opik",
+   "exportApi": "REST API and SDK export",
+   "pricing": "Free tiers; paid plans"
+  },
+  {
+   "github": "https://github.com/clearml/clearml",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "clearml",
+   "name": "ClearML",
+   "category": "experiment-tracking",
+   "summary": "Open-source MLOps suite: experiment tracking with automatic resource monitoring, orchestration and GPU fractioning.",
+   "workloads": [
+    "pretraining",
+    "fine-tuning",
+    "gpu-monitoring"
+   ],
+   "measures": [
+    "Training scalars",
+    "Machine/GPU utilization, memory, temperature"
+   ],
+   "costCapability": "none",
+   "costNotes": "Resource usage only; cost via your rates.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "saas",
+    "self-hosted"
+   ],
+   "licenseType": "open-core",
+   "license": "Apache-2.0 (open-source server/SDK); enterprise features commercial",
+   "integrations": [
+    "Python SDK",
+    "Agent/orchestration"
+   ],
+   "platforms": [
+    "Docker",
+    "Kubernetes",
+    "ClearML Hosted"
+   ],
+   "website": "https://clear.ml/",
+   "docs": "https://clear.ml/docs/latest/docs/",
+   "install": "pip install clearml  ·  clearml-init",
+   "exportApi": "REST API",
+   "pricing": "Free community; paid tiers"
+  },
+  {
+   "github": "https://github.com/NVIDIA/dcgm-exporter",
+   "caveats": "Profiling metrics availability depends on GPU architecture and driver.",
+   "aieIntegration": "adapter",
+   "lastVerified": "2026-10-23",
+   "slug": "nvidia-dcgm",
+   "name": "NVIDIA DCGM & dcgm-exporter",
+   "category": "gpu-infra",
+   "summary": "Data Center GPU Manager: health, telemetry and profiling metrics for NVIDIA data-centre GPUs; dcgm-exporter exposes them to Prometheus.",
+   "workloads": [
+    "gpu-monitoring",
+    "self-hosted-inference",
+    "pretraining",
+    "fine-tuning",
+    "rl",
+    "energy"
+   ],
+   "measures": [
+    "GPU utilization (DCGM_FI_DEV_GPU_UTIL)",
+    "SM/tensor-core activity (profiling fields)",
+    "Framebuffer memory used/free",
+    "Power draw (W) and cumulative energy (mJ)",
+    "Temperature, clocks, ECC/XID errors, NVLink/PCIe throughput"
+   ],
+   "costCapability": "none",
+   "costNotes": "Hardware measurements only. Energy × electricity price and GPU-hours × rate are calculated by AI Economics.",
+   "liveMonitoring": true,
+   "historicalRecords": false,
+   "hosting": [
+    "self-hosted",
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "Prometheus (dcgm-exporter)",
+    "Kubernetes GPU Operator",
+    "Python/C bindings"
+   ],
+   "platforms": [
+    "Linux",
+    "Kubernetes"
+   ],
+   "website": "https://developer.nvidia.com/dcgm",
+   "docs": "https://docs.nvidia.com/datacenter/dcgm/latest/",
+   "install": "helm install dcgm-exporter gpu-helm-charts/dcgm-exporter  (or via GPU Operator)",
+   "exportApi": "Prometheus /metrics (default :9400)",
+   "pricing": "Free"
+  },
+  {
+   "github": null,
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "nsight-systems",
+   "name": "NVIDIA Nsight Systems",
+   "category": "gpu-infra",
+   "summary": "System-wide performance profiler showing CPU/GPU timelines, CUDA kernels, NCCL communication and memory transfers.",
+   "workloads": [
+    "profiling",
+    "pretraining",
+    "self-hosted-inference"
+   ],
+   "measures": [
+    "Kernel and API timelines",
+    "GPU/CPU utilization over time",
+    "NCCL/communication overlap"
+   ],
+   "costCapability": "none",
+   "costNotes": "Execution measurements only.",
+   "liveMonitoring": false,
+   "historicalRecords": false,
+   "hosting": [
+    "cli"
+   ],
+   "licenseType": "proprietary-free",
+   "license": "NVIDIA proprietary (free)",
+   "integrations": [
+    "nsys CLI",
+    "NVTX annotations"
+   ],
+   "platforms": [
+    "Linux",
+    "Windows"
+   ],
+   "website": "https://developer.nvidia.com/nsight-systems",
+   "docs": "https://docs.nvidia.com/nsight-systems/",
+   "install": "nsys profile -o report python train.py",
+   "exportApi": "SQLite/JSON export of reports",
+   "pricing": "Free"
+  },
+  {
+   "github": "https://github.com/pytorch/pytorch",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "pytorch-profiler",
+   "name": "PyTorch Profiler",
+   "category": "gpu-infra",
+   "summary": "Built-in profiler for operator-level CPU/GPU time, memory and stack traces in PyTorch programs.",
+   "workloads": [
+    "profiling",
+    "pretraining",
+    "fine-tuning",
+    "rl"
+   ],
+   "measures": [
+    "Operator CPU/CUDA time",
+    "Memory allocations",
+    "Kernel traces (Chrome trace)"
+   ],
+   "costCapability": "none",
+   "costNotes": "Execution measurements only.",
+   "liveMonitoring": false,
+   "historicalRecords": false,
+   "hosting": [
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "BSD-3-Clause",
+   "integrations": [
+    "torch.profiler",
+    "TensorBoard trace viewer",
+    "Perfetto/Chrome trace"
+   ],
+   "platforms": [
+    "Python"
+   ],
+   "website": "https://pytorch.org/",
+   "docs": "https://docs.pytorch.org/docs/stable/profiler.html",
+   "install": "with torch.profiler.profile(...) as prof: ...",
+   "exportApi": "Chrome trace JSON; key_averages tables",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/prometheus/prometheus",
+   "caveats": null,
+   "aieIntegration": "adapter",
+   "lastVerified": "2026-10-23",
+   "slug": "prometheus",
+   "name": "Prometheus",
+   "category": "gpu-infra",
+   "summary": "Open-source time-series monitoring system; the common store for vLLM, Triton, DCGM and LiteLLM metrics.",
+   "workloads": [
+    "gpu-monitoring",
+    "self-hosted-inference",
+    "infra-accounting"
+   ],
+   "measures": [
+    "Any scraped metric (counters, gauges, histograms)"
+   ],
+   "costCapability": "none",
+   "costNotes": "Stores measurements; AI Economics queries it read-only and applies your rates.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "saas"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "HTTP API /api/v1/query",
+    "Exporters",
+    "Remote write"
+   ],
+   "platforms": [
+    "Linux",
+    "Kubernetes",
+    "Docker"
+   ],
+   "website": "https://prometheus.io/",
+   "docs": "https://prometheus.io/docs/introduction/overview/",
+   "install": "docker run -p 9090:9090 prom/prometheus",
+   "exportApi": "HTTP query API (instant & range)",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/grafana/grafana",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "grafana",
+   "name": "Grafana",
+   "category": "gpu-infra",
+   "summary": "Dashboards and alerting over Prometheus and many other data sources.",
+   "workloads": [
+    "gpu-monitoring",
+    "self-hosted-inference",
+    "infra-accounting"
+   ],
+   "measures": [
+    "Visualizes metrics from connected sources"
+   ],
+   "costCapability": "none",
+   "costNotes": "Visualization only.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "saas"
+   ],
+   "licenseType": "open-source",
+   "license": "AGPL-3.0",
+   "integrations": [
+    "Prometheus",
+    "Loki",
+    "Tempo",
+    "ClickHouse"
+   ],
+   "platforms": [
+    "Docker",
+    "Kubernetes",
+    "Grafana Cloud"
+   ],
+   "website": "https://grafana.com/",
+   "docs": "https://grafana.com/docs/grafana/latest/",
+   "install": "docker run -p 3000:3000 grafana/grafana",
+   "exportApi": "HTTP API; dashboard JSON",
+   "pricing": "OSS free; Grafana Cloud tiers"
+  },
+  {
+   "github": "https://github.com/opencost/opencost",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "opencost",
+   "name": "OpenCost",
+   "category": "cost-allocation",
+   "summary": "CNCF project for Kubernetes cost allocation by namespace, pod, label and GPU, using cloud price APIs or custom pricing.",
+   "workloads": [
+    "infra-accounting",
+    "self-hosted-inference",
+    "pretraining",
+    "fine-tuning"
+   ],
+   "measures": [
+    "Resource requests/usage per workload (CPU, RAM, GPU)"
+   ],
+   "costCapability": "billing",
+   "costNotes": "Allocates cost from on-demand price APIs or custom prices; cloud-cost integration can ingest billing data.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "Prometheus",
+    "Cloud billing exports",
+    "Kubernetes"
+   ],
+   "platforms": [
+    "Kubernetes"
+   ],
+   "website": "https://opencost.io/",
+   "docs": "https://opencost.io/docs/",
+   "install": "helm install opencost opencost/opencost",
+   "exportApi": "Allocation API; Prometheus metrics",
+   "pricing": "Open source"
+  },
+  {
+   "github": null,
+   "caveats": "Kubecost is now part of IBM; product packaging may change.",
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "kubecost",
+   "name": "Kubecost",
+   "category": "cost-allocation",
+   "summary": "Commercial Kubernetes cost monitoring built on OpenCost, with cloud bill reconciliation, budgets and GPU cost views.",
+   "workloads": [
+    "infra-accounting",
+    "self-hosted-inference",
+    "pretraining"
+   ],
+   "measures": [
+    "Workload resource usage",
+    "Cluster efficiency/idle"
+   ],
+   "costCapability": "billing",
+   "costNotes": "Reconciles allocations against cloud billing data (CUR/billing exports).",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted",
+    "saas"
+   ],
+   "licenseType": "commercial",
+   "license": "Proprietary (free tier available)",
+   "integrations": [
+    "AWS/GCP/Azure billing",
+    "Prometheus",
+    "Kubernetes"
+   ],
+   "platforms": [
+    "Kubernetes"
+   ],
+   "website": "https://www.kubecost.com/",
+   "docs": "https://docs.kubecost.com/",
+   "install": "helm install kubecost cost-analyzer",
+   "exportApi": "Allocation/Assets APIs",
+   "pricing": "Free tier; enterprise plans (see website)"
+  },
+  {
+   "github": "https://github.com/vllm-project/vllm",
+   "caveats": "Metric names change between releases (V0 → V1 engine); AI Economics maps both where known.",
+   "aieIntegration": "adapter",
+   "lastVerified": "2026-10-23",
+   "slug": "vllm-metrics",
+   "name": "vLLM metrics",
+   "category": "inference-server",
+   "summary": "vLLM's OpenAI-compatible server exposes Prometheus metrics for tokens, latency, queueing and KV-cache usage.",
+   "workloads": [
+    "self-hosted-inference"
+   ],
+   "measures": [
+    "Prompt and generation tokens (counters)",
+    "TTFT, inter-token and end-to-end latency (histograms)",
+    "Running/waiting requests",
+    "KV-cache usage",
+    "Prefix-cache hits (version-dependent)"
+   ],
+   "costCapability": "none",
+   "costNotes": "Token counters × GPU cost rate are calculated by AI Economics.",
+   "liveMonitoring": true,
+   "historicalRecords": false,
+   "hosting": [
+    "self-hosted"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "Prometheus /metrics"
+   ],
+   "platforms": [
+    "Linux (CUDA/ROCm/TPU…)"
+   ],
+   "website": "https://docs.vllm.ai/",
+   "docs": "https://docs.vllm.ai/en/stable/design/metrics/",
+   "install": "vllm serve <model>  →  GET /metrics",
+   "exportApi": "Prometheus text format",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/triton-inference-server/server",
+   "caveats": null,
+   "aieIntegration": "documented",
+   "lastVerified": "2026-10-23",
+   "slug": "triton-metrics",
+   "name": "NVIDIA Triton Inference Server metrics",
+   "category": "inference-server",
+   "summary": "Triton exposes Prometheus metrics for inference counts, latencies, queue time, GPU utilization, memory and power.",
+   "workloads": [
+    "self-hosted-inference",
+    "gpu-monitoring"
+   ],
+   "measures": [
+    "Inference request/execution counts",
+    "Queue/compute latency",
+    "GPU utilization, memory, power"
+   ],
+   "costCapability": "none",
+   "costNotes": "Measurements only.",
+   "liveMonitoring": true,
+   "historicalRecords": false,
+   "hosting": [
+    "self-hosted"
+   ],
+   "licenseType": "open-source",
+   "license": "BSD-3-Clause",
+   "integrations": [
+    "Prometheus (:8002/metrics)"
+   ],
+   "platforms": [
+    "Linux",
+    "Kubernetes"
+   ],
+   "website": "https://developer.nvidia.com/triton-inference-server",
+   "docs": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html",
+   "install": "tritonserver --model-repository=...  →  :8002/metrics",
+   "exportApi": "Prometheus text format",
+   "pricing": "Open source (NVIDIA AI Enterprise support optional)"
+  },
+  {
+   "github": "https://github.com/llm-d/llm-d",
+   "caveats": "Documented in a development branch of the docs; experimental.",
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "llm-d",
+   "name": "llm-d inference cost tracking",
+   "category": "inference-server",
+   "summary": "Kubernetes-native distributed inference stack; its docs describe observability for inference cost tracking.",
+   "workloads": [
+    "self-hosted-inference",
+    "infra-accounting"
+   ],
+   "measures": [
+    "Inference metrics from vLLM-based serving",
+    "Resource usage on Kubernetes"
+   ],
+   "costCapability": "estimated",
+   "costNotes": "Cost tracking documented under development docs; treat as experimental.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "self-hosted"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "Prometheus",
+    "Kubernetes"
+   ],
+   "platforms": [
+    "Kubernetes"
+   ],
+   "website": "https://llm-d.ai/",
+   "docs": "https://llm-d.ai/docs/dev/operations/observability/inference-cost",
+   "install": "See llm-d guides (Helm)",
+   "exportApi": "Prometheus metrics",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/mlco2/codecarbon",
+   "caveats": "Falls back to modeled estimates when hardware counters are unavailable; label results accordingly.",
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "codecarbon",
+   "name": "CodeCarbon",
+   "category": "energy",
+   "summary": "Python library that tracks energy use of CPU, GPU and RAM during code execution and estimates CO2 emissions.",
+   "workloads": [
+    "energy",
+    "pretraining",
+    "fine-tuning",
+    "self-hosted-inference"
+   ],
+   "measures": [
+    "GPU energy via NVML when available",
+    "CPU energy via RAPL when available (else TDP-based estimate)",
+    "Duration"
+   ],
+   "costCapability": "none",
+   "costNotes": "Energy (kWh) and estimated emissions; × electricity price gives energy cost.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "library",
+    "saas"
+   ],
+   "licenseType": "open-source",
+   "license": "MIT",
+   "integrations": [
+    "Python decorator/context manager",
+    "CSV/API logging",
+    "Dashboard"
+   ],
+   "platforms": [
+    "Linux",
+    "Windows",
+    "macOS"
+   ],
+   "website": "https://codecarbon.io/",
+   "docs": "https://mlco2.github.io/codecarbon/",
+   "install": "pip install codecarbon  ·  with EmissionsTracker(): ...",
+   "exportApi": "CSV, API, Prometheus/Logfire outputs",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/genai-impact/ecologits",
+   "caveats": "The project brief linked codecarbon.io for EcoLogits; the official site is ecologits.ai.",
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "ecologits",
+   "name": "EcoLogits",
+   "category": "energy",
+   "summary": "Estimates energy consumption and environmental impacts of generative-AI API calls from token counts and a model of hardware usage.",
+   "workloads": [
+    "energy",
+    "api-inference"
+   ],
+   "measures": [
+    "Token counts per call (from the SDK response)"
+   ],
+   "costCapability": "none",
+   "costNotes": "Energy/impact figures are MODELED estimates, not measurements.",
+   "liveMonitoring": false,
+   "historicalRecords": false,
+   "hosting": [
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "MPL-2.0",
+   "integrations": [
+    "OpenAI, Anthropic, Mistral, Google and other SDK wrappers"
+   ],
+   "platforms": [
+    "Python"
+   ],
+   "website": "https://ecologits.ai/",
+   "docs": "https://ecologits.ai/latest/",
+   "install": "pip install ecologits  ·  EcoLogits.init()",
+   "exportApi": "Impacts attached to SDK responses",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/ml-energy/zeus",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "zeus",
+   "name": "Zeus (ML.ENERGY)",
+   "category": "energy",
+   "summary": "Library for measuring and optimizing GPU energy consumption of deep-learning workloads.",
+   "workloads": [
+    "energy",
+    "pretraining",
+    "fine-tuning",
+    "gpu-monitoring"
+   ],
+   "measures": [
+    "GPU energy per measurement window (NVML/AMDSMI counters)",
+    "Time per window"
+   ],
+   "costCapability": "none",
+   "costNotes": "Measured energy; × electricity price for cost.",
+   "liveMonitoring": false,
+   "historicalRecords": false,
+   "hosting": [
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "Python API (ZeusMonitor)"
+   ],
+   "platforms": [
+    "Linux"
+   ],
+   "website": "https://ml.energy/zeus/",
+   "docs": "https://ml.energy/zeus/",
+   "install": "pip install zeus  ·  monitor.begin_window('step')",
+   "exportApi": "Python objects",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/huggingface/trl",
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "hf-trl",
+   "name": "Hugging Face TRL",
+   "category": "post-training",
+   "summary": "Library for SFT, DPO, GRPO, PPO, RLOO and reward modelling; trainers log tokens, rewards, KL and throughput to trackers.",
+   "workloads": [
+    "fine-tuning",
+    "rl"
+   ],
+   "measures": [
+    "Training loss, reward, KL, completion lengths",
+    "Tokens processed (trainer logs)",
+    "Step timing"
+   ],
+   "costCapability": "none",
+   "costNotes": "No cost calculation; join logged step timing/GPU-hours with GPU rates.",
+   "liveMonitoring": true,
+   "historicalRecords": true,
+   "hosting": [
+    "library"
+   ],
+   "licenseType": "open-source",
+   "license": "Apache-2.0",
+   "integrations": [
+    "W&B",
+    "TensorBoard",
+    "Trackio",
+    "MLflow (via Transformers callbacks)"
+   ],
+   "platforms": [
+    "Python"
+   ],
+   "website": "https://huggingface.co/docs/trl/index",
+   "docs": "https://huggingface.co/docs/trl/index",
+   "install": "pip install trl",
+   "exportApi": "Logs to configured trackers",
+   "pricing": "Open source"
+  },
+  {
+   "github": "https://github.com/open-telemetry/semantic-conventions-genai",
+   "caveats": "Development status. In 2026 the GenAI conventions moved from open-telemetry/semantic-conventions to the dedicated semantic-conventions-genai repository; attribute names have changed before (gen_ai.system → gen_ai.provider.name).",
+   "aieIntegration": "adapter",
+   "lastVerified": "2026-10-23",
+   "slug": "otel-genai",
+   "name": "OpenTelemetry GenAI semantic conventions",
+   "category": "standard",
+   "summary": "Vendor-neutral attribute names for GenAI spans and metrics (model, provider, input/output tokens, operation).",
+   "workloads": [
+    "api-inference",
+    "self-hosted-inference",
+    "agents"
+   ],
+   "measures": [
+    "gen_ai.usage.input_tokens (includes cached tokens)",
+    "gen_ai.usage.cache_read.input_tokens / cache_creation.input_tokens (subsets of input)",
+    "gen_ai.usage.output_tokens (includes reasoning) and reasoning.output_tokens",
+    "gen_ai.request.model, gen_ai.provider.name, gen_ai.operation.name"
+   ],
+   "costCapability": "none",
+   "costNotes": "Standard has no cost attribute; AI Economics computes cost from token attributes and published prices.",
+   "liveMonitoring": true,
+   "historicalRecords": false,
+   "hosting": [
+    "library"
+   ],
+   "licenseType": "specification",
+   "license": "Apache-2.0",
+   "integrations": [
+    "OTLP/HTTP",
+    "OTel SDKs",
+    "OpenLIT, OpenLLMetry, Langfuse, Phoenix"
+   ],
+   "platforms": [
+    "Any"
+   ],
+   "website": "https://opentelemetry.io/",
+   "docs": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+   "install": "Export OTLP/HTTP JSON to AI Economics /api/ingest/otlp/v1/traces",
+   "exportApi": "OTLP",
+   "pricing": "Open standard"
+  },
+  {
+   "github": null,
+   "caveats": null,
+   "aieIntegration": "none",
+   "lastVerified": "2026-10-23",
+   "slug": "nvidia-smi",
+   "name": "nvidia-smi / NVML",
+   "category": "gpu-infra",
+   "summary": "Driver-bundled CLI and library for querying GPU utilization, memory, power and processes.",
+   "workloads": [
+    "gpu-monitoring",
+    "energy",
+    "profiling"
+   ],
+   "measures": [
+    "GPU utilization, memory used",
+    "Power draw",
+    "Per-process GPU memory"
+   ],
+   "costCapability": "none",
+   "costNotes": "Measurements only.",
+   "liveMonitoring": true,
+   "historicalRecords": false,
+   "hosting": [
+    "cli",
+    "library"
+   ],
+   "licenseType": "proprietary-free",
+   "license": "Part of NVIDIA driver",
+   "integrations": [
+    "CLI CSV query mode",
+    "NVML C/Python bindings (nvidia-ml-py)"
+   ],
+   "platforms": [
+    "Linux",
+    "Windows"
+   ],
+   "website": "https://developer.nvidia.com/system-management-interface",
+   "docs": "https://docs.nvidia.com/deploy/nvidia-smi/index.html",
+   "install": "nvidia-smi --query-gpu=utilization.gpu,memory.used,power.draw --format=csv -l 5",
+   "exportApi": "CSV/XML output; NVML API",
+   "pricing": "Free"
+  }
+ ]
+}

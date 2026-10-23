@@ -1,0 +1,64 @@
+name: Refresh public price data
+
+# Target cadences (not guarantees of upstream freshness):
+#   token prices (LiteLLM, OpenRouter) + Azure GPU list prices: every 6 h
+#   Vast.ai marketplace statistics: every 3 h
+#   ECB FX reference rates: daily
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # litellm, openrouter, azure
+    - cron: "47 */3 * * *"   # vast
+    - cron: "5 16 * * 1-5"   # ecb-fx (ECB publishes ~16:00 CET on business days)
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "Space-separated sources (blank = all): litellm openrouter azure vast ecb-fx"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Select sources
+        id: select
+        run: |
+          case "${{ github.event.schedule }}" in
+            "17 */6 * * *") echo "sources=litellm openrouter azure" >> "$GITHUB_OUTPUT" ;;
+            "47 */3 * * *") echo "sources=vast" >> "$GITHUB_OUTPUT" ;;
+            "5 16 * * 1-5") echo "sources=ecb-fx" >> "$GITHUB_OUTPUT" ;;
+            *) echo "sources=${{ github.event.inputs.sources }}" >> "$GITHUB_OUTPUT" ;;
+          esac
+      - name: Refresh
+        # Exits non-zero only if every selected source failed; failures are
+        # recorded in data/source-health.json and never replace prior data.
+        run: npm run refresh -- ${{ steps.select.outputs.sources }}
+      - name: Commit changed data
+        run: |
+          git config user.name "ai-economics-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "data: refresh ${{ steps.select.outputs.sources || 'all sources' }} ($(date -u +%Y-%m-%dT%H:%MZ))"
+          for i in 1 2 3; do
+            git pull --rebase --strategy-option=theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+            sleep $((i * 10))
+          done
+          exit 1

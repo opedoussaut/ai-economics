@@ -1,0 +1,198 @@
+{
+ "schemaVersion": 1,
+ "updatedAt": "2026-10-23T06:32:21.944Z",
+ "sources": {
+  "litellm": {
+   "id": "litellm",
+   "lastAttemptAt": "2026-10-23T06:29:23.623Z",
+   "lastSuccessAt": "2026-10-23T06:29:23.912Z",
+   "lastStatus": "ok",
+   "lastError": null,
+   "recordCount": 1518,
+   "durationMs": 286,
+   "consecutiveFailures": 0
+  },
+  "openrouter": {
+   "id": "openrouter",
+   "lastAttemptAt": "2026-10-23T06:29:23.912Z",
+   "lastSuccessAt": "2026-10-23T06:29:24.037Z",
+   "lastStatus": "ok",
+   "lastError": null,
+   "recordCount": 461,
+   "durationMs": 125,
+   "consecutiveFailures": 0
+  },
+  "azure": {
+   "id": "azure",
+   "lastAttemptAt": "2026-10-23T06:32:20.813Z",
+   "lastSuccessAt": "2026-10-23T06:32:21.944Z",
+   "lastStatus": "ok",
+   "lastError": null,
+   "recordCount": 265,
+   "durationMs": 1129,
+   "consecutiveFailures": 0
+  },
+  "vast": {
+   "id": "vast",
+   "lastAttemptAt": "2026-10-23T06:30:04.156Z",
+   "lastSuccessAt": "2026-10-23T06:30:07.787Z",
+   "lastStatus": "ok",
+   "lastError": null,
+   "recordCount": 15,
+   "durationMs": 3631,
+   "consecutiveFailures": 0
+  },
+  "ecb-fx": {
+   "id": "ecb-fx",
+   "lastAttemptAt": "2026-10-23T06:30:07.787Z",
+   "lastSuccessAt": "2026-10-23T06:30:07.877Z",
+   "lastStatus": "ok",
+   "lastError": null,
+   "recordCount": 29,
+   "durationMs": 90,
+   "consecutiveFailures": 0
+  }
+ },
+ "jobs": [
+  {
+   "id": "azure@2026-10-23T06:32:20.813Z",
+   "sourceId": "azure",
+   "startedAt": "2026-10-23T06:32:20.813Z",
+   "finishedAt": "2026-10-23T06:32:21.944Z",
+   "status": "ok",
+   "recordCount": 265,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "ecb-fx@2026-10-23T06:30:07.787Z",
+   "sourceId": "ecb-fx",
+   "startedAt": "2026-10-23T06:30:07.787Z",
+   "finishedAt": "2026-10-23T06:30:07.877Z",
+   "status": "ok",
+   "recordCount": 29,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "vast@2026-10-23T06:30:04.156Z",
+   "sourceId": "vast",
+   "startedAt": "2026-10-23T06:30:04.156Z",
+   "finishedAt": "2026-10-23T06:30:07.787Z",
+   "status": "ok",
+   "recordCount": 15,
+   "changes": 35,
+   "error": null
+  },
+  {
+   "id": "azure@2026-10-23T06:29:24.037Z",
+   "sourceId": "azure",
+   "startedAt": "2026-10-23T06:29:24.037Z",
+   "finishedAt": "2026-10-23T06:30:04.156Z",
+   "status": "error",
+   "recordCount": 0,
+   "changes": 0,
+   "error": "fetch failed"
+  },
+  {
+   "id": "openrouter@2026-10-23T06:29:23.912Z",
+   "sourceId": "openrouter",
+   "startedAt": "2026-10-23T06:29:23.912Z",
+   "finishedAt": "2026-10-23T06:29:24.037Z",
+   "status": "ok",
+   "recordCount": 461,
+   "changes": 9,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-10-23T06:29:23.623Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-10-23T06:29:23.623Z",
+   "finishedAt": "2026-10-23T06:29:23.912Z",
+   "status": "ok",
+   "recordCount": 1518,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-10-23T05:41:51.845Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-10-23T05:41:51.845Z",
+   "finishedAt": "2026-10-23T05:41:52.103Z",
+   "status": "ok",
+   "recordCount": 1518,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-10-23T05:41:41.225Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-10-23T05:41:41.225Z",
+   "finishedAt": "2026-10-23T05:41:41.440Z",
+   "status": "ok",
+   "recordCount": 1518,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-10-23T05:41:27.337Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-10-23T05:41:27.337Z",
+   "finishedAt": "2026-10-23T05:41:27.552Z",
+   "status": "ok",
+   "recordCount": 1518,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "ecb-fx@2026-10-23T05:21:33.519Z",
+   "sourceId": "ecb-fx",
+   "startedAt": "2026-10-23T05:21:33.519Z",
+   "finishedAt": "2026-10-23T05:21:33.577Z",
+   "status": "ok",
+   "recordCount": 29,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "vast@2026-10-23T05:21:30.877Z",
+   "sourceId": "vast",
+   "startedAt": "2026-10-23T05:21:30.877Z",
+   "finishedAt": "2026-10-23T05:21:33.519Z",
+   "status": "ok",
+   "recordCount": 15,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "azure@2026-10-23T05:21:26.204Z",
+   "sourceId": "azure",
+   "startedAt": "2026-10-23T05:21:26.204Z",
+   "finishedAt": "2026-10-23T05:21:30.877Z",
+   "status": "ok",
+   "recordCount": 265,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "openrouter@2026-10-23T05:21:26.124Z",
+   "sourceId": "openrouter",
+   "startedAt": "2026-10-23T05:21:26.124Z",
+   "finishedAt": "2026-10-23T05:21:26.204Z",
+   "status": "ok",
+   "recordCount": 461,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-10-23T05:21:25.909Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-10-23T05:21:25.909Z",
+   "finishedAt": "2026-10-23T05:21:26.124Z",
+   "status": "ok",
+   "recordCount": 1518,
+   "changes": 0,
+   "error": null
+  }
+ ]
+}

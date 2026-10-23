@@ -1,0 +1,22 @@
+# Optional PostgreSQL for local development. Without it, the app uses embedded
+# PGlite automatically. Usage:
+#   docker compose up -d
+#   $env:DATABASE_URL = "postgres://aie:aie@localhost:5432/aie"; npm run db:migrate
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: aie
+      POSTGRES_PASSWORD: aie
+      POSTGRES_DB: aie
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - aie-pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aie"]
+      interval: 5s
+      retries: 10
+volumes:
+  aie-pg:
