@@ -8,6 +8,7 @@ import { createRun, endRun } from "@/lib/telemetry/runs";
 import { getGpuSnapshot } from "@/lib/data/store";
 import { ratePresets } from "@/lib/rate-presets";
 import { LiveView } from "./live-view";
+import { databaseConfigured } from "@/lib/db/client";
 
 export const metadata: Metadata = { title: "Live telemetry", robots: { index: false } };
 export const dynamic = "force-dynamic";
@@ -29,6 +30,7 @@ async function createRunAction(formData: FormData) {
   const allowed = ["api-inference", "self-hosted-inference", "pretraining", "fine-tuning", "rl", "agents"] as const;
   const gpuCount = num(formData.get("gpuCount"));
   const rate = num(formData.get("rate"));
+  if (!databaseConfigured()) return;
   if (!str(formData.get("name")) || !gpuCount || gpuCount < 1 || rate === null || rate < 0 || !allowed.includes(type as never)) return;
   const mlflow = str(formData.get("mlflowRunId"));
   await createRun({
@@ -88,7 +90,7 @@ export default async function LivePage() {
             <label className="block"><span className="mb-1 block text-xs text-muted">Planned tokens</span><input name="plannedTokens" type="number" className={inputClass} /></label>
             <label className="block"><span className="mb-1 block text-xs text-muted">Planned steps</span><input name="plannedSteps" type="number" className={inputClass} /></label>
             <label className="block"><span className="mb-1 block text-xs text-muted">MLflow run ID</span><input name="mlflowRunId" className={inputClass} /></label>
-            <div className="flex items-end"><Button variant="primary" type="submit">Start tracking</Button></div>
+            <div className="flex items-end"><Button variant="primary" type="submit" disabled={!databaseConfigured()}>Start tracking</Button></div>
           </form>
         </CardBody>
       </Card>

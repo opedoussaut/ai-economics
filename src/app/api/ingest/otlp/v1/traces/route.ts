@@ -3,6 +3,7 @@ import { ZodError } from "zod";
 import { bearerOk } from "@/lib/auth";
 import { extractGenAiUsage } from "@/lib/telemetry/otlp";
 import { storeUsage } from "@/lib/telemetry/runs";
+import { databaseConfigured } from "@/lib/db/client";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -17,6 +18,7 @@ const MAX_BYTES = 5 * 1024 * 1024;
 export async function POST(req: Request) {
   if (!process.env.INGEST_TOKEN) return NextResponse.json({ error: "OTLP ingestion disabled: INGEST_TOKEN not set" }, { status: 503 });
   if (!bearerOk(req.headers.get("authorization"), process.env.INGEST_TOKEN)) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  if (!databaseConfigured()) return NextResponse.json({ error: "OTLP ingestion disabled: DATABASE_URL not set" }, { status: 503 });
   const type = req.headers.get("content-type") ?? "";
   if (!type.includes("application/json")) {
     return NextResponse.json({ error: "Only OTLP/HTTP JSON is supported (set the exporter protocol to http/json)" }, { status: 415 });

@@ -2,6 +2,8 @@
 
 Frequently updated intelligence on the economics of artificial intelligence: published API token prices, GPU rental prices, inference / training / fine-tuning / RL cost models, an AI-factory financial simulator, a directory of cost-measurement tools, and a private monitoring area that turns real telemetry into calculated costs.
 
+**Live:** https://ai-economics-beta.vercel.app (Vercel; see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md))
+
 Every economic value is labelled as one of **Published price · Measured usage · Calculated cost · Modeled estimate · Billed cost · Benchmark**. Nothing is invented: failed sources keep their last verified snapshot and are flagged stale, missing history shows an *insufficient data* state, and no telemetry is shown unless a real source is connected.
 
 ## What's inside
@@ -121,6 +123,7 @@ Scheduled workflows need *Settings → Actions → General → Workflow permissi
 * [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md) — every source, method, terms, cadence, gaps
 * [docs/METHODOLOGY.md](docs/METHODOLOGY.md) — value classes, formulas, conventions, limitations
 * [docs/INTEGRATIONS.md](docs/INTEGRATIONS.md) — connecting Prometheus, vLLM, DCGM, MLflow, OTel, Langfuse, LiteLLM
+* [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) — Vercel (current hosting), environment variables, database, self-hosting
 
 ## Disclaimer
 

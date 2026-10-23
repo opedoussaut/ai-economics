@@ -3,7 +3,7 @@
  "source": "ECB euro reference rates",
  "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
  "rateDate": "2026-10-22",
- "fetchedAt": "2026-10-23T06:30:07.787Z",
+ "fetchedAt": "2026-10-23T06:48:24.156Z",
  "eurRates": {
   "USD": 1.1205,
   "JPY": 175.97,

@@ -1,0 +1,7 @@
+.data
+.next
+.claude
+test-results
+playwright-report
+node_modules
+.env*.local

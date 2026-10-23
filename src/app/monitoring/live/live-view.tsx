@@ -9,6 +9,7 @@ import { fmtDate, fmtNum, fmtTokens } from "@/lib/format";
 
 interface LiveResponse {
   pollSeconds: number;
+  database: boolean;
   live: { sampledAt: string; connected: boolean; sources: { id: string; ok: boolean; error: string | null }[]; metrics: { key: string; label: string; unit: string; value: number | null; source: string }[] };
   runs: {
     id: string; name: string; type: string; project: string | null; cluster: string | null; model: string | null; status: string; startedAt: string; endedAt: string | null;
@@ -72,6 +73,11 @@ export function LiveView({ endRunAction }: { endRunAction: (fd: FormData) => Pro
   const metric = (k: string) => data.live.metrics.find((m) => m.key === k);
   return (
     <div className="space-y-4">
+      {!data.database && (
+        <Note tone="warn">
+          No database configured (DATABASE_URL). Live source metrics still work, but workload runs and OTLP token usage cannot be stored on this deployment.
+        </Note>
+      )}
       <Card>
         <CardHeader title="Sources" subtitle={`Last poll ${fmtDate(data.live.sampledAt, true)} · every ${data.pollSeconds}s`} actions={data.live.connected ? <Badge tone="pos">Connected</Badge> : <Badge tone="warn">Not connected</Badge>} />
         <CardBody>

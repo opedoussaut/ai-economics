@@ -2,16 +2,23 @@ import { NextResponse } from "next/server";
 import { collectLive } from "@/lib/telemetry/live";
 import { listRuns, runEconomics, usageSummary } from "@/lib/telemetry/runs";
 import { telemetryEnv } from "@/lib/telemetry/config";
+import { databaseConfigured } from "@/lib/db/client";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 /** Authenticated (middleware). Polled by the live view at TELEMETRY_POLL_SECONDS. */
 export async function GET() {
-  const [live, runs, usage] = await Promise.all([collectLive(), listRuns(), usageSummary(24)]);
+  const database = databaseConfigured();
+  const [live, runs, usage] = await Promise.all([
+    collectLive(),
+    database ? listRuns() : Promise.resolve([]),
+    database ? usageSummary(24) : Promise.resolve([]),
+  ]);
   const now = new Date();
   return NextResponse.json({
     pollSeconds: telemetryEnv().pollSeconds,
+    database,
     live,
     runs: runs.map(({ run, workload }) => {
       const e = runEconomics(run, live.connected ? live : null, now);

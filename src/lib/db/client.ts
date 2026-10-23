@@ -15,6 +15,22 @@ let dbPromise: Promise<Db> | null = null;
 
 const MIGRATIONS = path.join(process.cwd(), "drizzle");
 
+/**
+ * Serverless hosts (Vercel, AWS Lambda) have a read-only, per-instance
+ * filesystem: an embedded database there would silently lose data, so
+ * DATABASE_URL is mandatory for private telemetry in those environments.
+ */
+export const isServerless = () => !!(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+
+export class DatabaseNotConfiguredError extends Error {
+  constructor() {
+    super("DATABASE_URL is not set. Private telemetry needs PostgreSQL on serverless hosts (see docs/DEPLOYMENT.md).");
+    this.name = "DatabaseNotConfiguredError";
+  }
+}
+
+export const databaseConfigured = () => !!process.env.DATABASE_URL || !isServerless();
+
 async function create() {
   if (process.env.DATABASE_URL) {
     const { default: postgres } = await import("postgres");
@@ -25,6 +41,7 @@ async function create() {
     await migrate(db, { migrationsFolder: MIGRATIONS });
     return db as unknown as import("drizzle-orm/pglite").PgliteDatabase<typeof schema>;
   }
+  if (isServerless()) throw new DatabaseNotConfiguredError();
   const { PGlite } = await import("@electric-sql/pglite");
   const { drizzle } = await import("drizzle-orm/pglite");
   const { migrate } = await import("drizzle-orm/pglite/migrator");
