@@ -1,5 +1,93 @@
 [
  {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0262,
+  "newValue": 0.0511,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.1028,
+  "newValue": 0.0702,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.0262,
+  "newValue": 0.03,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~deepseek/deepseek-v4-flash-latest",
+  "label": "OpenRouter · ~deepseek/deepseek-v4-flash-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.1694,
+  "newValue": 0.1763,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~deepseek/deepseek-v4-flash-latest",
+  "label": "OpenRouter · ~deepseek/deepseek-v4-flash-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.028,
+  "newValue": 0.027,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.327642,
+  "newValue": 0.2088,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.655284,
+  "newValue": 0.4176,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T15:59:59.596Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.027304,
+  "newValue": 0.0174,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-10-24T11:40:12.062Z",
   "dataset": "gpu",
   "offeringId": "vast:H100 SXM",
