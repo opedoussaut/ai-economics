@@ -1,5 +1,137 @@
 [
  {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-latest",
+  "label": "OpenRouter · ~z-ai/glm-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.079,
+  "newValue": 0.075,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-latest",
+  "label": "OpenRouter · ~z-ai/glm-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 1.4,
+  "newValue": 4.295,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-latest",
+  "label": "OpenRouter · ~z-ai/glm-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.078,
+  "newValue": 0.075,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.238,
+  "newValue": 0.19,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 16,
+  "newValue": 8.94,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.228,
+  "newValue": 0.19,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.570894,
+  "newValue": 0.327642,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 1.141788,
+  "newValue": 0.655284,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.047574,
+  "newValue": 0.027304,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:minimax/minimax-m2.5",
+  "label": "OpenRouter · minimax/minimax-m2.5",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.27,
+  "newValue": 0.3,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:minimax/minimax-m2.5",
+  "label": "OpenRouter · minimax/minimax-m2.5",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.95,
+  "newValue": 1.2,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-24T11:07:16.847Z",
+  "dataset": "token",
+  "offeringId": "openrouter:z-ai/glm-4.6v",
+  "label": "OpenRouter · z-ai/glm-4.6v",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.05,
+  "newValue": 0.055,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-10-24T05:05:02.398Z",
   "dataset": "gpu",
   "offeringId": "vast:H100 SXM",

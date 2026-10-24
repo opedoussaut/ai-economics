@@ -1,11 +1,11 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-10-24T05:05:05.251Z",
+ "updatedAt": "2026-10-24T11:07:23.938Z",
  "sources": {
   "litellm": {
    "id": "litellm",
-   "lastAttemptAt": "2026-10-24T04:41:38.047Z",
-   "lastSuccessAt": "2026-10-24T04:41:38.425Z",
+   "lastAttemptAt": "2026-10-24T11:07:16.470Z",
+   "lastSuccessAt": "2026-10-24T11:07:16.846Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 1519,
@@ -14,22 +14,22 @@
   },
   "openrouter": {
    "id": "openrouter",
-   "lastAttemptAt": "2026-10-24T04:41:38.426Z",
-   "lastSuccessAt": "2026-10-24T04:41:38.610Z",
+   "lastAttemptAt": "2026-10-24T11:07:16.847Z",
+   "lastSuccessAt": "2026-10-24T11:07:17.006Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 462,
-   "durationMs": 184,
+   "durationMs": 159,
    "consecutiveFailures": 0
   },
   "azure": {
    "id": "azure",
-   "lastAttemptAt": "2026-10-24T04:41:38.610Z",
-   "lastSuccessAt": "2026-10-24T04:41:39.907Z",
+   "lastAttemptAt": "2026-10-24T11:07:17.006Z",
+   "lastSuccessAt": "2026-10-24T11:07:23.938Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 265,
-   "durationMs": 1297,
+   "durationMs": 6932,
    "consecutiveFailures": 0
   },
   "vast": {
@@ -54,6 +54,36 @@
   }
  },
  "jobs": [
+  {
+   "id": "azure@2026-10-24T11:07:17.006Z",
+   "sourceId": "azure",
+   "startedAt": "2026-10-24T11:07:17.006Z",
+   "finishedAt": "2026-10-24T11:07:23.938Z",
+   "status": "ok",
+   "recordCount": 265,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "openrouter@2026-10-24T11:07:16.847Z",
+   "sourceId": "openrouter",
+   "startedAt": "2026-10-24T11:07:16.847Z",
+   "finishedAt": "2026-10-24T11:07:17.006Z",
+   "status": "ok",
+   "recordCount": 462,
+   "changes": 12,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-10-24T11:07:16.470Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-10-24T11:07:16.470Z",
+   "finishedAt": "2026-10-24T11:07:16.846Z",
+   "status": "ok",
+   "recordCount": 1519,
+   "changes": 0,
+   "error": null
+  },
   {
    "id": "vast@2026-10-24T05:05:02.398Z",
    "sourceId": "vast",
