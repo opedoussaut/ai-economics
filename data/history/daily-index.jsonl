@@ -149,5 +149,5 @@
 {"date":"2026-10-24","dataset":"token","key":"token:direct","metric":"output","stats":{"n":320,"min":0.1,"p25":1.2,"median":3,"p75":10,"max":75},"origin":"live"}
 {"date":"2026-10-24","dataset":"token","key":"token:openrouter","metric":"input","stats":{"n":440,"min":0.017,"p25":0.15,"median":0.5,"p75":1.75,"max":150},"origin":"live"}
 {"date":"2026-10-24","dataset":"token","key":"token:openrouter","metric":"output","stats":{"n":440,"min":0.03,"p25":0.6,"median":2,"p75":7.5,"max":600},"origin":"live"}
-{"date":"2026-10-24","dataset":"token","key":"token:third-party-host","metric":"input","stats":{"n":828,"min":0.001,"p25":0.15,"median":0.3,"p75":0.9,"max":16.5},"origin":"live"}
-{"date":"2026-10-24","dataset":"token","key":"token:third-party-host","metric":"output","stats":{"n":828,"min":0.001,"p25":0.2,"median":0.9,"p75":2.0975,"max":82.5},"origin":"live"}
+{"date":"2026-10-24","dataset":"token","key":"token:third-party-host","metric":"input","stats":{"n":829,"min":0.001,"p25":0.15,"median":0.3,"p75":0.9,"max":16.5},"origin":"live"}
+{"date":"2026-10-24","dataset":"token","key":"token:third-party-host","metric":"output","stats":{"n":829,"min":0.001,"p25":0.2,"median":0.9,"p75":2.08,"max":82.5},"origin":"live"}
