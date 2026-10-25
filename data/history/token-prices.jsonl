@@ -4335,3 +4335,4 @@
 {"offeringId":"openrouter:tencent/hy3","observedAt":"2026-10-25T16:27:14.605Z","hash":"c1fb976bd699773e","origin":"live","values":{"input":0.0825,"output":0.33,"cacheRead":0.020625,"cacheWrite":null,"batchInput":null,"batchOutput":null}}
 {"offeringId":"openrouter:~moonshotai/kimi-latest","observedAt":"2026-10-25T16:27:14.605Z","hash":"4da975699049f5e2","origin":"live","values":{"input":0.171,"output":9.3421,"cacheRead":0.17,"cacheWrite":null,"batchInput":null,"batchOutput":null}}
 {"offeringId":"openrouter:qwen/qwen3.6-27b","observedAt":"2026-10-25T16:27:14.605Z","hash":"aa940c59e55b665f","origin":"live","values":{"input":0.32,"output":3.2,"cacheRead":null,"cacheWrite":null,"batchInput":null,"batchOutput":null}}
+{"offeringId":"openrouter:~moonshotai/kimi-latest","observedAt":"2026-10-25T20:54:51.670Z","hash":"ab2a3cf95d10b96e","origin":"live","values":{"input":0.1814,"output":8.5226,"cacheRead":0.18,"cacheWrite":null,"batchInput":null,"batchOutput":null}}

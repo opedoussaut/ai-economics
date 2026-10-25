@@ -1,5 +1,38 @@
 [
  {
+  "at": "2026-10-25T20:54:51.670Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.171,
+  "newValue": 0.1814,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T20:54:51.670Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 9.3421,
+  "newValue": 8.5226,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T20:54:51.670Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.17,
+  "newValue": 0.18,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-10-25T16:51:03.336Z",
   "dataset": "gpu",
   "offeringId": "vast:H100 SXM",
