@@ -1,5 +1,137 @@
 [
  {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:tencent/hy4-preview",
+  "label": "OpenRouter · tencent/hy4-preview",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.834,
+  "newValue": 0.7506,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:tencent/hy4-preview",
+  "label": "OpenRouter · tencent/hy4-preview",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 2.501,
+  "newValue": 2.2509,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:tencent/hy4-preview",
+  "label": "OpenRouter · tencent/hy4-preview",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.042,
+  "newValue": 0.0378,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~deepseek/deepseek-v4-flash-latest",
+  "label": "OpenRouter · ~deepseek/deepseek-v4-flash-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.1694,
+  "newValue": 0.1763,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~deepseek/deepseek-v4-flash-latest",
+  "label": "OpenRouter · ~deepseek/deepseek-v4-flash-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.028,
+  "newValue": 0.027,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:tencent/hy3",
+  "label": "OpenRouter · tencent/hy3",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.132,
+  "newValue": 0.0825,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:tencent/hy3",
+  "label": "OpenRouter · tencent/hy3",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.528,
+  "newValue": 0.33,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:tencent/hy3",
+  "label": "OpenRouter · tencent/hy3",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.033,
+  "newValue": 0.020625,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 8.9338,
+  "newValue": 9.3421,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:qwen/qwen3.6-27b",
+  "label": "OpenRouter · qwen/qwen3.6-27b",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.25,
+  "newValue": 0.32,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:qwen/qwen3.6-27b",
+  "label": "OpenRouter · qwen/qwen3.6-27b",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 2,
+  "newValue": 3.2,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T16:27:14.605Z",
+  "dataset": "token",
+  "offeringId": "openrouter:qwen/qwen3.6-27b",
+  "label": "OpenRouter · qwen/qwen3.6-27b",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.025,
+  "newValue": null,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-10-25T12:03:36.327Z",
   "dataset": "gpu",
   "offeringId": "vast:H100 SXM",
