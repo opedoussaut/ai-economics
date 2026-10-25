@@ -1,5 +1,93 @@
 [
  {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0511,
+  "newValue": 0.0513,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.0761,
+  "newValue": 0.0701,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-flash-0731",
+  "label": "OpenRouter · deepseek/deepseek-v4-flash-0731",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0422,
+  "newValue": 0.04444,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-flash-0731",
+  "label": "OpenRouter · deepseek/deepseek-v4-flash-0731",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.1694,
+  "newValue": 0.13332,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-flash-0731",
+  "label": "OpenRouter · deepseek/deepseek-v4-flash-0731",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.028,
+  "newValue": 0.001414,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.19,
+  "newValue": 0.171,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 8.94,
+  "newValue": 8.9338,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-10-25T11:37:00.343Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.19,
+  "newValue": 0.17,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-10-25T05:22:40.303Z",
   "dataset": "gpu",
   "offeringId": "vast:H100 SXM",
