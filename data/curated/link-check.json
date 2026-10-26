@@ -1,297 +1,21 @@
 {
- "checkedAt": "2026-10-23T05:33:05.539Z",
+ "checkedAt": "2026-10-26T10:18:42.923Z",
  "results": {
-  "otel-genai": [
+  "langfuse": [
    {
-    "url": "https://opentelemetry.io/",
+    "url": "https://langfuse.com/",
     "status": 200,
     "ok": true,
     "error": null
    },
    {
-    "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+    "url": "https://langfuse.com/docs/observability/features/token-and-cost-tracking",
     "status": 200,
     "ok": true,
     "error": null
    },
    {
-    "url": "https://github.com/open-telemetry/semantic-conventions-genai",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "nsight-systems": [
-   {
-    "url": "https://developer.nvidia.com/nsight-systems",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.nvidia.com/nsight-systems/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "nvidia-smi": [
-   {
-    "url": "https://developer.nvidia.com/system-management-interface",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.nvidia.com/deploy/nvidia-smi/index.html",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "prometheus": [
-   {
-    "url": "https://prometheus.io/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://prometheus.io/docs/introduction/overview/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/prometheus/prometheus",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "grafana": [
-   {
-    "url": "https://grafana.com/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://grafana.com/docs/grafana/latest/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/grafana/grafana",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "zeus": [
-   {
-    "url": "https://ml.energy/zeus/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/ml-energy/zeus",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "langsmith": [
-   {
-    "url": "https://www.langchain.com/langsmith",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.langchain.com/langsmith/home",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/langchain-ai/langsmith-sdk",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "openlit": [
-   {
-    "url": "https://openlit.io/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.openlit.io/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/openlit/openlit",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "codecarbon": [
-   {
-    "url": "https://codecarbon.io/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://mlco2.github.io/codecarbon/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/mlco2/codecarbon",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "helicone": [
-   {
-    "url": "https://www.helicone.ai/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.helicone.ai/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/Helicone/helicone",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "tensorboard": [
-   {
-    "url": "https://www.tensorflow.org/tensorboard",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://www.tensorflow.org/tensorboard/get_started",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/tensorflow/tensorboard",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "portkey": [
-   {
-    "url": "https://portkey.ai/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://portkey.ai/docs",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/Portkey-AI/gateway",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "hf-trl": [
-   {
-    "url": "https://huggingface.co/docs/trl/index",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/huggingface/trl",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "mlflow-tracking": [
-   {
-    "url": "https://mlflow.org/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://mlflow.org/docs/latest/ml/tracking/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/mlflow/mlflow",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "mlflow-genai": [
-   {
-    "url": "https://mlflow.org/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://mlflow.org/docs/latest/genai/tracing/token-usage-cost/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/mlflow/mlflow",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "triton-metrics": [
-   {
-    "url": "https://developer.nvidia.com/triton-inference-server",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/triton-inference-server/server",
+    "url": "https://github.com/langfuse/langfuse",
     "status": 200,
     "ok": true,
     "error": null
@@ -317,6 +41,66 @@
     "error": null
    }
   ],
+  "mlflow-genai": [
+   {
+    "url": "https://mlflow.org/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://mlflow.org/docs/latest/genai/tracing/token-usage-cost/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/mlflow/mlflow",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "mlflow-tracking": [
+   {
+    "url": "https://mlflow.org/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://mlflow.org/docs/latest/ml/tracking/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/mlflow/mlflow",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "tensorboard": [
+   {
+    "url": "https://www.tensorflow.org/tensorboard",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://www.tensorflow.org/tensorboard/get_started",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/tensorflow/tensorboard",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
   "nvidia-dcgm": [
    {
     "url": "https://developer.nvidia.com/dcgm",
@@ -332,106 +116,6 @@
    },
    {
     "url": "https://github.com/NVIDIA/dcgm-exporter",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "vllm-metrics": [
-   {
-    "url": "https://docs.vllm.ai/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.vllm.ai/en/stable/design/metrics/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/vllm-project/vllm",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "comet": [
-   {
-    "url": "https://www.comet.com/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://www.comet.com/docs/v2/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/comet-ml/opik",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "pytorch-profiler": [
-   {
-    "url": "https://pytorch.org/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://docs.pytorch.org/docs/stable/profiler.html",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/pytorch/pytorch",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "llm-d": [
-   {
-    "url": "https://llm-d.ai/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://llm-d.ai/docs/dev/operations/observability/inference-cost",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/llm-d/llm-d",
-    "status": 200,
-    "ok": true,
-    "error": null
-   }
-  ],
-  "langfuse": [
-   {
-    "url": "https://langfuse.com/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://langfuse.com/docs/observability/features/token-and-cost-tracking",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/langfuse/langfuse",
     "status": 200,
     "ok": true,
     "error": null
@@ -457,41 +141,75 @@
     "error": null
    }
   ],
-  "wandb": [
+  "nsight-systems": [
    {
-    "url": "https://wandb.ai/",
+    "url": "https://developer.nvidia.com/nsight-systems",
     "status": 200,
     "ok": true,
     "error": null
    },
    {
-    "url": "https://docs.wandb.ai/",
-    "status": 200,
-    "ok": true,
-    "error": null
-   },
-   {
-    "url": "https://github.com/wandb/wandb",
+    "url": "https://docs.nvidia.com/nsight-systems/",
     "status": 200,
     "ok": true,
     "error": null
    }
   ],
-  "ecologits": [
+  "grafana": [
    {
-    "url": "https://ecologits.ai/",
+    "url": "https://grafana.com/",
     "status": 200,
     "ok": true,
     "error": null
    },
    {
-    "url": "https://ecologits.ai/latest/",
+    "url": "https://grafana.com/docs/grafana/latest/",
     "status": 200,
     "ok": true,
     "error": null
    },
    {
-    "url": "https://github.com/genai-impact/ecologits",
+    "url": "https://github.com/grafana/grafana",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "pytorch-profiler": [
+   {
+    "url": "https://pytorch.org/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.pytorch.org/docs/stable/profiler.html",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/pytorch/pytorch",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "prometheus": [
+   {
+    "url": "https://prometheus.io/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://prometheus.io/docs/introduction/overview/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/prometheus/prometheus",
     "status": 200,
     "ok": true,
     "error": null
@@ -517,15 +235,183 @@
     "error": null
    }
   ],
-  "kubecost": [
+  "helicone": [
    {
-    "url": "https://www.kubecost.com/",
+    "url": "https://www.helicone.ai/",
     "status": 200,
     "ok": true,
     "error": null
    },
    {
-    "url": "https://docs.kubecost.com/",
+    "url": "https://docs.helicone.ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/Helicone/helicone",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "openlit": [
+   {
+    "url": "https://openlit.io/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.openlit.io/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/openlit/openlit",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "llm-d": [
+   {
+    "url": "https://llm-d.ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://llm-d.ai/docs/dev/operations/observability/inference-cost",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/llm-d/llm-d",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "langsmith": [
+   {
+    "url": "https://www.langchain.com/langsmith",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.langchain.com/langsmith/home",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/langchain-ai/langsmith-sdk",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "nvidia-smi": [
+   {
+    "url": "https://developer.nvidia.com/system-management-interface",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.nvidia.com/deploy/nvidia-smi/index.html",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "vllm-metrics": [
+   {
+    "url": "https://docs.vllm.ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.vllm.ai/en/stable/design/metrics/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/vllm-project/vllm",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "hf-trl": [
+   {
+    "url": "https://huggingface.co/docs/trl/index",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/huggingface/trl",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "zeus": [
+   {
+    "url": "https://ml.energy/zeus/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/ml-energy/zeus",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "comet": [
+   {
+    "url": "https://www.comet.com/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://www.comet.com/docs/v2/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/comet-ml/opik",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "triton-metrics": [
+   {
+    "url": "https://developer.nvidia.com/triton-inference-server",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/metrics.html",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/triton-inference-server/server",
     "status": 200,
     "ok": true,
     "error": null
@@ -546,6 +432,120 @@
    },
    {
     "url": "https://github.com/Arize-ai/phoenix",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "portkey": [
+   {
+    "url": "https://portkey.ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://portkey.ai/docs",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/Portkey-AI/gateway",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "otel-genai": [
+   {
+    "url": "https://opentelemetry.io/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/open-telemetry/semantic-conventions-genai",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "codecarbon": [
+   {
+    "url": "https://codecarbon.io/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://mlco2.github.io/codecarbon/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/mlco2/codecarbon",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "kubecost": [
+   {
+    "url": "https://www.kubecost.com/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.kubecost.com/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "ecologits": [
+   {
+    "url": "https://ecologits.ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://ecologits.ai/latest/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/genai-impact/ecologits",
+    "status": 200,
+    "ok": true,
+    "error": null
+   }
+  ],
+  "wandb": [
+   {
+    "url": "https://wandb.ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://docs.wandb.ai/",
+    "status": 200,
+    "ok": true,
+    "error": null
+   },
+   {
+    "url": "https://github.com/wandb/wandb",
     "status": 200,
     "ok": true,
     "error": null
