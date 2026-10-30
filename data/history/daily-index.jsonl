@@ -268,19 +268,20 @@
 {"date":"2026-10-29","dataset":"token","key":"token:third-party-host","metric":"input","stats":{"n":838,"min":0.001,"p25":0.15,"median":0.3,"p75":0.9,"max":16.5},"origin":"live"}
 {"date":"2026-10-29","dataset":"token","key":"token:third-party-host","metric":"output","stats":{"n":838,"min":0.001,"p25":0.2,"median":0.89,"p75":2.06,"max":82.5},"origin":"live"}
 {"date":"2026-10-30","dataset":"gpu","key":"gpu:A100:cloud-list","metric":"perGpuHour","stats":{"n":116,"min":3.3996,"p25":4.4075,"median":4.775,"p75":5.1422,"max":8.1925},"origin":"live"}
-{"date":"2026-10-30","dataset":"gpu","key":"gpu:A100:marketplace","metric":"perGpuHour","stats":{"n":2,"min":0.8015,"p25":0.880575,"median":0.95965,"p75":1.038725,"max":1.1178},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:A100:marketplace","metric":"perGpuHour","stats":{"n":2,"min":0.8678,"p25":0.928175,"median":0.98855,"p75":1.048925,"max":1.1093},"origin":"live"}
 {"date":"2026-10-30","dataset":"gpu","key":"gpu:B200:cloud-list","metric":"perGpuHour","stats":{"n":19,"min":27.04,"p25":31.3675,"median":33.8,"p75":37.18,"max":54.08},"origin":"live"}
 {"date":"2026-10-30","dataset":"gpu","key":"gpu:B200:marketplace","metric":"perGpuHour","stats":{"n":1,"min":8.751,"p25":8.751,"median":8.751,"p75":8.751,"max":8.751},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:B300:marketplace","metric":"perGpuHour","stats":{"n":1,"min":8.7714,"p25":8.7714,"median":8.7714,"p75":8.7714,"max":8.7714},"origin":"live"}
 {"date":"2026-10-30","dataset":"gpu","key":"gpu:H100:cloud-list","metric":"perGpuHour","stats":{"n":82,"min":6.98,"p25":8.59,"median":9.14,"p75":12.29,"max":23.326},"origin":"live"}
-{"date":"2026-10-30","dataset":"gpu","key":"gpu:H100:marketplace","metric":"perGpuHour","stats":{"n":2,"min":3.1681,"p25":3.444625,"median":3.72115,"p75":3.997675,"max":4.2742},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:H100:marketplace","metric":"perGpuHour","stats":{"n":1,"min":3.1206,"p25":3.1206,"median":3.1206,"p75":3.1206,"max":3.1206},"origin":"live"}
 {"date":"2026-10-30","dataset":"gpu","key":"gpu:H200:cloud-list","metric":"perGpuHour","stats":{"n":31,"min":10.6,"p25":12.561,"median":13.25,"p75":13.835,"max":21.2},"origin":"live"}
-{"date":"2026-10-30","dataset":"gpu","key":"gpu:H200:marketplace","metric":"perGpuHour","stats":{"n":2,"min":4.26835,"p25":4.500938,"median":4.733525,"p75":4.966112,"max":5.1987},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:H200:marketplace","metric":"perGpuHour","stats":{"n":2,"min":4.2672,"p25":4.463825,"median":4.66045,"p75":4.857075,"max":5.0537},"origin":"live"}
 {"date":"2026-10-30","dataset":"gpu","key":"gpu:L40S:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.8007,"p25":0.8007,"median":0.8007,"p75":0.8007,"max":0.8007},"origin":"live"}
 {"date":"2026-10-30","dataset":"gpu","key":"gpu:MI300X:cloud-list","metric":"perGpuHour","stats":{"n":17,"min":6,"p25":7.2,"median":7.5,"p75":8.4,"max":12},"origin":"live"}
-{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX 4090:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.50255,"p25":0.50255,"median":0.50255,"p75":0.50255,"max":0.50255},"origin":"live"}
-{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX 5090:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.7339,"p25":0.7339,"median":0.7339,"p75":0.7339,"max":0.7339},"origin":"live"}
-{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX 6000 Ada:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.6422,"p25":0.6422,"median":0.6422,"p75":0.6422,"max":0.6422},"origin":"live"}
-{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX PRO 6000:marketplace","metric":"perGpuHour","stats":{"n":2,"min":1.73385,"p25":1.767338,"median":1.800825,"p75":1.834312,"max":1.8678},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX 4090:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.48515,"p25":0.48515,"median":0.48515,"p75":0.48515,"max":0.48515},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX 5090:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.734,"p25":0.734,"median":0.734,"p75":0.734,"max":0.734},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX 6000 Ada:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.63225,"p25":0.63225,"median":0.63225,"p75":0.63225,"max":0.63225},"origin":"live"}
+{"date":"2026-10-30","dataset":"gpu","key":"gpu:RTX PRO 6000:marketplace","metric":"perGpuHour","stats":{"n":2,"min":1.7337,"p25":1.7549,"median":1.7761,"p75":1.7973,"max":1.8185},"origin":"live"}
 {"date":"2026-10-30","dataset":"token","key":"token:cloud-platform","metric":"input","stats":{"n":346,"min":0.035,"p25":0.25,"median":1.14,"p75":3,"max":3200},"origin":"live"}
 {"date":"2026-10-30","dataset":"token","key":"token:cloud-platform","metric":"output","stats":{"n":346,"min":0.04,"p25":1.25,"median":4.97,"p75":15,"max":9710},"origin":"live"}
 {"date":"2026-10-30","dataset":"token","key":"token:direct","metric":"input","stats":{"n":323,"min":0.0375,"p25":0.3,"median":1.25,"p75":2,"max":30},"origin":"live"}
