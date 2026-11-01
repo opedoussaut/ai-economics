@@ -1,5 +1,126 @@
 [
  {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0098,
+  "newValue": 0.0285,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.1702,
+  "newValue": 0.0923,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~z-ai/glm-flash-latest",
+  "label": "OpenRouter · ~z-ai/glm-flash-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.0098,
+  "newValue": 0.0285,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:z-ai/glm-5.3-flash",
+  "label": "OpenRouter · z-ai/glm-5.3-flash",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0098,
+  "newValue": 0.0285,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:z-ai/glm-5.3-flash",
+  "label": "OpenRouter · z-ai/glm-5.3-flash",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.1702,
+  "newValue": 0.0923,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:z-ai/glm-5.3-flash",
+  "label": "OpenRouter · z-ai/glm-5.3-flash",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.0098,
+  "newValue": 0.0285,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:z-ai/glm-5.3",
+  "label": "OpenRouter · z-ai/glm-5.3",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0699,
+  "newValue": 0.08,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:z-ai/glm-5.3",
+  "label": "OpenRouter · z-ai/glm-5.3",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 1.4,
+  "newValue": 3.6,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:z-ai/glm-5.3",
+  "label": "OpenRouter · z-ai/glm-5.3",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.0689,
+  "newValue": 0.076,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:openai/gpt-oss-120b",
+  "label": "OpenRouter · openai/gpt-oss-120b",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.028,
+  "newValue": 0.017,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-01T13:31:18.881Z",
+  "dataset": "token",
+  "offeringId": "openrouter:openai/gpt-oss-120b",
+  "label": "OpenRouter · openai/gpt-oss-120b",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.102,
+  "newValue": 0.063,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-11-01T06:53:47.033Z",
   "dataset": "gpu",
   "offeringId": "vast:H200",
@@ -21876,127 +21997,6 @@
   "field": "median",
   "oldValue": 0.6307,
   "newValue": 0.6681,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:A100 PCIE",
-  "label": "Vast.ai marketplace · A100 PCIe · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 1.0011,
-  "newValue": 0.7641,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:L40S",
-  "label": "Vast.ai marketplace · L40S 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 0.8011,
-  "newValue": 0.8004,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:L40S",
-  "label": "Vast.ai marketplace · L40S 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 0.8016,
-  "newValue": 0.8007,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 S",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Server · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 1.734,
-  "newValue": 1.6411,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 S",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Server · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 1.73425,
-  "newValue": 1.7345,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 WS",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Workstation · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 1.8704,
-  "newValue": 1.6156,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 WS",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Workstation · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 2.2512,
-  "newValue": 1.8683,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 6000Ada",
-  "label": "Vast.ai marketplace · RTX 6000 Ada 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 1.1915,
-  "newValue": 0.86775,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 6000Ada",
-  "label": "Vast.ai marketplace · RTX 6000 Ada 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "min",
-  "oldValue": 0.6689,
-  "newValue": 0.6022,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 6000Ada",
-  "label": "Vast.ai marketplace · RTX 6000 Ada 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 1.193,
-  "newValue": 1.07905,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-24T11:40:12.062Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 6000Ada",
-  "label": "Vast.ai marketplace · RTX 6000 Ada 48GB · global (mixed host locations)",
-  "kind": "relisted",
-  "field": null,
-  "oldValue": null,
-  "newValue": null,
   "sourceId": "vast"
  }
 ]
