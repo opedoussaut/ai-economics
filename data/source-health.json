@@ -1,35 +1,35 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-02T23:26:37.218Z",
+ "updatedAt": "2026-11-03T01:03:58.302Z",
  "sources": {
   "litellm": {
    "id": "litellm",
-   "lastAttemptAt": "2026-11-02T16:07:37.502Z",
-   "lastSuccessAt": "2026-11-02T16:07:37.827Z",
+   "lastAttemptAt": "2026-11-03T01:01:19.159Z",
+   "lastSuccessAt": "2026-11-03T01:01:19.459Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 1536,
-   "durationMs": 325,
+   "durationMs": 300,
    "consecutiveFailures": 0
   },
   "openrouter": {
    "id": "openrouter",
-   "lastAttemptAt": "2026-11-02T16:07:37.827Z",
-   "lastSuccessAt": "2026-11-02T16:07:37.944Z",
+   "lastAttemptAt": "2026-11-03T01:01:19.459Z",
+   "lastSuccessAt": "2026-11-03T01:01:19.574Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 444,
-   "durationMs": 117,
+   "durationMs": 115,
    "consecutiveFailures": 0
   },
   "azure": {
    "id": "azure",
-   "lastAttemptAt": "2026-11-02T16:07:37.944Z",
-   "lastSuccessAt": "2026-11-02T16:07:39.577Z",
+   "lastAttemptAt": "2026-11-03T01:01:19.574Z",
+   "lastSuccessAt": "2026-11-03T01:03:58.301Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 265,
-   "durationMs": 1633,
+   "durationMs": 158727,
    "consecutiveFailures": 0
   },
   "vast": {
@@ -54,6 +54,36 @@
   }
  },
  "jobs": [
+  {
+   "id": "azure@2026-11-03T01:01:19.574Z",
+   "sourceId": "azure",
+   "startedAt": "2026-11-03T01:01:19.574Z",
+   "finishedAt": "2026-11-03T01:03:58.301Z",
+   "status": "ok",
+   "recordCount": 265,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "openrouter@2026-11-03T01:01:19.459Z",
+   "sourceId": "openrouter",
+   "startedAt": "2026-11-03T01:01:19.459Z",
+   "finishedAt": "2026-11-03T01:01:19.574Z",
+   "status": "ok",
+   "recordCount": 444,
+   "changes": 20,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-11-03T01:01:19.159Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-11-03T01:01:19.159Z",
+   "finishedAt": "2026-11-03T01:01:19.459Z",
+   "status": "ok",
+   "recordCount": 1536,
+   "changes": 0,
+   "error": null
+  },
   {
    "id": "ecb-fx@2026-11-02T23:26:36.541Z",
    "sourceId": "ecb-fx",
