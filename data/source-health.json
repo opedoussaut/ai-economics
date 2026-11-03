@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-03T19:51:16.923Z",
+ "updatedAt": "2026-11-03T21:42:09.067Z",
  "sources": {
   "litellm": {
    "id": "litellm",
@@ -44,16 +44,26 @@
   },
   "ecb-fx": {
    "id": "ecb-fx",
-   "lastAttemptAt": "2026-11-02T23:26:36.541Z",
-   "lastSuccessAt": "2026-11-02T23:26:37.218Z",
+   "lastAttemptAt": "2026-11-03T21:42:08.558Z",
+   "lastSuccessAt": "2026-11-03T21:42:09.067Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 29,
-   "durationMs": 677,
+   "durationMs": 509,
    "consecutiveFailures": 0
   }
  },
  "jobs": [
+  {
+   "id": "ecb-fx@2026-11-03T21:42:08.558Z",
+   "sourceId": "ecb-fx",
+   "startedAt": "2026-11-03T21:42:08.558Z",
+   "finishedAt": "2026-11-03T21:42:09.067Z",
+   "status": "ok",
+   "recordCount": 29,
+   "changes": 0,
+   "error": null
+  },
   {
    "id": "vast@2026-11-03T19:51:15.230Z",
    "sourceId": "vast",
