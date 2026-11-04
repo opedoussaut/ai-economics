@@ -1,35 +1,35 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-04T11:37:51.915Z",
+ "updatedAt": "2026-11-04T19:49:31.687Z",
  "sources": {
   "litellm": {
    "id": "litellm",
-   "lastAttemptAt": "2026-11-04T06:30:57.992Z",
-   "lastSuccessAt": "2026-11-04T06:30:58.258Z",
+   "lastAttemptAt": "2026-11-04T19:49:21.991Z",
+   "lastSuccessAt": "2026-11-04T19:49:22.220Z",
    "lastStatus": "ok",
    "lastError": null,
-   "recordCount": 1498,
-   "durationMs": 266,
+   "recordCount": 1500,
+   "durationMs": 229,
    "consecutiveFailures": 0
   },
   "openrouter": {
    "id": "openrouter",
-   "lastAttemptAt": "2026-11-04T06:30:58.258Z",
-   "lastSuccessAt": "2026-11-04T06:30:58.351Z",
+   "lastAttemptAt": "2026-11-04T19:49:22.221Z",
+   "lastSuccessAt": "2026-11-04T19:49:22.354Z",
    "lastStatus": "ok",
    "lastError": null,
-   "recordCount": 448,
-   "durationMs": 93,
+   "recordCount": 447,
+   "durationMs": 134,
    "consecutiveFailures": 0
   },
   "azure": {
    "id": "azure",
-   "lastAttemptAt": "2026-11-04T06:30:58.352Z",
-   "lastSuccessAt": "2026-11-04T06:31:14.873Z",
+   "lastAttemptAt": "2026-11-04T19:49:22.355Z",
+   "lastSuccessAt": "2026-11-04T19:49:31.687Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 265,
-   "durationMs": 16522,
+   "durationMs": 9332,
    "consecutiveFailures": 0
   },
   "vast": {
@@ -54,6 +54,36 @@
   }
  },
  "jobs": [
+  {
+   "id": "azure@2026-11-04T19:49:22.355Z",
+   "sourceId": "azure",
+   "startedAt": "2026-11-04T19:49:22.355Z",
+   "finishedAt": "2026-11-04T19:49:31.687Z",
+   "status": "ok",
+   "recordCount": 265,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "openrouter@2026-11-04T19:49:22.221Z",
+   "sourceId": "openrouter",
+   "startedAt": "2026-11-04T19:49:22.221Z",
+   "finishedAt": "2026-11-04T19:49:22.354Z",
+   "status": "ok",
+   "recordCount": 447,
+   "changes": 46,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-11-04T19:49:21.991Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-11-04T19:49:21.991Z",
+   "finishedAt": "2026-11-04T19:49:22.220Z",
+   "status": "ok",
+   "recordCount": 1500,
+   "changes": 5,
+   "error": null
+  },
   {
    "id": "vast@2026-11-04T11:37:49.821Z",
    "sourceId": "vast",
