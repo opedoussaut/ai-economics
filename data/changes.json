@@ -1,5 +1,126 @@
 [
  {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~deepseek/deepseek-v4-flash-latest",
+  "label": "OpenRouter · ~deepseek/deepseek-v4-flash-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0553,
+  "newValue": 0.0474,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-flash-0731",
+  "label": "OpenRouter · deepseek/deepseek-v4-flash-0731",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.0553,
+  "newValue": 0.0474,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.1824,
+  "newValue": 0.1548,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 9.3388,
+  "newValue": 9.7471,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:~moonshotai/kimi-latest",
+  "label": "OpenRouter · ~moonshotai/kimi-latest",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.18,
+  "newValue": 0.15,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.859908,
+  "newValue": 0.717924,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 1.719816,
+  "newValue": 1.435848,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:deepseek/deepseek-v4-pro",
+  "label": "OpenRouter · deepseek/deepseek-v4-pro",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.071659,
+  "newValue": 0.059827,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:openai/gpt-oss-120b",
+  "label": "OpenRouter · openai/gpt-oss-120b",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.01,
+  "newValue": 0.018,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:openai/gpt-oss-120b",
+  "label": "OpenRouter · openai/gpt-oss-120b",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.037,
+  "newValue": 0.065,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-07T13:08:46.123Z",
+  "dataset": "token",
+  "offeringId": "openrouter:openai/gpt-oss-120b",
+  "label": "OpenRouter · openai/gpt-oss-120b",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.009,
+  "newValue": 0.016,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-11-07T10:43:11.294Z",
   "dataset": "gpu",
   "offeringId": "vast:H100 SXM",
@@ -21876,127 +21997,6 @@
   "field": "median",
   "oldValue": 1.9608,
   "newValue": 1.8015,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 WS",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Workstation · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "min",
-  "oldValue": 1.3748,
-  "newValue": 1.4022,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 WS",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Workstation · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 2.437175,
-  "newValue": 1.9356,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 6000Ada",
-  "label": "Vast.ai marketplace · RTX 6000 Ada 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 0.6022,
-  "newValue": 0.667,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 6000Ada",
-  "label": "Vast.ai marketplace · RTX 6000 Ada 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "min",
-  "oldValue": 0.6011,
-  "newValue": 0.5337,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 6000Ada",
-  "label": "Vast.ai marketplace · RTX 6000 Ada 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 0.6222,
-  "newValue": 0.6672,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 5090",
-  "label": "Vast.ai marketplace · GeForce RTX 5090 32GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 1.00295,
-  "newValue": 0.7659,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 5090",
-  "label": "Vast.ai marketplace · GeForce RTX 5090 32GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "min",
-  "oldValue": 0.6022,
-  "newValue": 0.497,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 5090",
-  "label": "Vast.ai marketplace · GeForce RTX 5090 32GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 1.1672,
-  "newValue": 0.93595,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 4090",
-  "label": "Vast.ai marketplace · GeForce RTX 4090 24GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 0.655,
-  "newValue": 0.4961,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 4090",
-  "label": "Vast.ai marketplace · GeForce RTX 4090 24GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "min",
-  "oldValue": 0.3596,
-  "newValue": 0.3763,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-10-29T01:16:38.108Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX 4090",
-  "label": "Vast.ai marketplace · GeForce RTX 4090 24GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 0.748975,
-  "newValue": 0.6685,
   "sourceId": "vast"
  }
 ]
