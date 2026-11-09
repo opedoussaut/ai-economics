@@ -492,3 +492,25 @@
 {"date":"2026-11-08","dataset":"token","key":"token:openrouter","metric":"output","stats":{"n":435,"min":0.03,"p25":0.6,"median":2,"p75":6.9,"max":180},"origin":"live"}
 {"date":"2026-11-08","dataset":"token","key":"token:third-party-host","metric":"input","stats":{"n":833,"min":0.001,"p25":0.15,"median":0.3,"p75":0.9,"max":16.5},"origin":"live"}
 {"date":"2026-11-08","dataset":"token","key":"token:third-party-host","metric":"output","stats":{"n":833,"min":0.001,"p25":0.2,"median":0.9,"p75":2.2,"max":82.5},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:A100:cloud-list","metric":"perGpuHour","stats":{"n":116,"min":3.3996,"p25":4.4075,"median":4.775,"p75":5.1422,"max":8.1925},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:A100:marketplace","metric":"perGpuHour","stats":{"n":2,"min":0.6026,"p25":0.659038,"median":0.715475,"p75":0.771913,"max":0.82835},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:B200:cloud-list","metric":"perGpuHour","stats":{"n":19,"min":27.04,"p25":31.3675,"median":33.8,"p75":37.18,"max":54.08},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:B200:marketplace","metric":"perGpuHour","stats":{"n":1,"min":8.751,"p25":8.751,"median":8.751,"p75":8.751,"max":8.751},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:H100:cloud-list","metric":"perGpuHour","stats":{"n":82,"min":6.98,"p25":8.59,"median":9.14,"p75":12.29,"max":23.326},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:H100:marketplace","metric":"perGpuHour","stats":{"n":2,"min":2.76325,"p25":2.784263,"median":2.805275,"p75":2.826288,"max":2.8473},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:H200:cloud-list","metric":"perGpuHour","stats":{"n":31,"min":10.6,"p25":12.561,"median":13.25,"p75":13.835,"max":21.2},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:H200:marketplace","metric":"perGpuHour","stats":{"n":2,"min":4.2678,"p25":4.816088,"median":5.364375,"p75":5.912663,"max":6.46095},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:L40S:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.80185,"p25":0.80185,"median":0.80185,"p75":0.80185,"max":0.80185},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:MI300X:cloud-list","metric":"perGpuHour","stats":{"n":17,"min":6,"p25":7.2,"median":7.5,"p75":8.4,"max":12},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:RTX 4090:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.47725,"p25":0.47725,"median":0.47725,"p75":0.47725,"max":0.47725},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:RTX 5090:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.6447,"p25":0.6447,"median":0.6447,"p75":0.6447,"max":0.6447},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:RTX 6000 Ada:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.75535,"p25":0.75535,"median":0.75535,"p75":0.75535,"max":0.75535},"origin":"live"}
+{"date":"2026-11-09","dataset":"gpu","key":"gpu:RTX PRO 6000:marketplace","metric":"perGpuHour","stats":{"n":2,"min":1.73835,"p25":1.787513,"median":1.836675,"p75":1.885838,"max":1.935},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:cloud-platform","metric":"input","stats":{"n":325,"min":0.035,"p25":0.3,"median":1.25,"p75":3,"max":15},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:cloud-platform","metric":"output","stats":{"n":325,"min":0.04,"p25":1.27,"median":5,"p75":15,"max":75},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:direct","metric":"input","stats":{"n":328,"min":0.0375,"p25":0.3,"median":1.25,"p75":2,"max":30},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:direct","metric":"output","stats":{"n":328,"min":0.1,"p25":1.2,"median":3.475,"p75":10,"max":100},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:openrouter","metric":"input","stats":{"n":435,"min":0.006,"p25":0.15,"median":0.5,"p75":1.5,"max":30},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:openrouter","metric":"output","stats":{"n":435,"min":0.03,"p25":0.6,"median":2,"p75":6.9,"max":180},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:third-party-host","metric":"input","stats":{"n":833,"min":0.001,"p25":0.15,"median":0.3,"p75":0.9,"max":16.5},"origin":"live"}
+{"date":"2026-11-09","dataset":"token","key":"token:third-party-host","metric":"output","stats":{"n":833,"min":0.001,"p25":0.2,"median":0.9,"p75":2.2,"max":82.5},"origin":"live"}
