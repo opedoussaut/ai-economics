@@ -1,35 +1,35 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-10T00:09:57.265Z",
+ "updatedAt": "2026-11-10T07:24:31.688Z",
  "sources": {
   "litellm": {
    "id": "litellm",
-   "lastAttemptAt": "2026-11-09T22:26:20.417Z",
-   "lastSuccessAt": "2026-11-09T22:26:20.676Z",
+   "lastAttemptAt": "2026-11-10T07:24:29.336Z",
+   "lastSuccessAt": "2026-11-10T07:24:29.651Z",
    "lastStatus": "ok",
    "lastError": null,
-   "recordCount": 1520,
-   "durationMs": 259,
+   "recordCount": 1521,
+   "durationMs": 315,
    "consecutiveFailures": 0
   },
   "openrouter": {
    "id": "openrouter",
-   "lastAttemptAt": "2026-11-09T22:26:20.676Z",
-   "lastSuccessAt": "2026-11-09T22:26:20.782Z",
+   "lastAttemptAt": "2026-11-10T07:24:29.651Z",
+   "lastSuccessAt": "2026-11-10T07:24:29.768Z",
    "lastStatus": "ok",
    "lastError": null,
-   "recordCount": 456,
-   "durationMs": 106,
+   "recordCount": 457,
+   "durationMs": 117,
    "consecutiveFailures": 0
   },
   "azure": {
    "id": "azure",
-   "lastAttemptAt": "2026-11-09T22:26:20.783Z",
-   "lastSuccessAt": "2026-11-09T22:26:26.164Z",
+   "lastAttemptAt": "2026-11-10T07:24:29.769Z",
+   "lastSuccessAt": "2026-11-10T07:24:31.687Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 265,
-   "durationMs": 5381,
+   "durationMs": 1918,
    "consecutiveFailures": 0
   },
   "vast": {
@@ -54,6 +54,36 @@
   }
  },
  "jobs": [
+  {
+   "id": "azure@2026-11-10T07:24:29.769Z",
+   "sourceId": "azure",
+   "startedAt": "2026-11-10T07:24:29.769Z",
+   "finishedAt": "2026-11-10T07:24:31.687Z",
+   "status": "ok",
+   "recordCount": 265,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "openrouter@2026-11-10T07:24:29.651Z",
+   "sourceId": "openrouter",
+   "startedAt": "2026-11-10T07:24:29.651Z",
+   "finishedAt": "2026-11-10T07:24:29.768Z",
+   "status": "ok",
+   "recordCount": 457,
+   "changes": 25,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-11-10T07:24:29.336Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-11-10T07:24:29.336Z",
+   "finishedAt": "2026-11-10T07:24:29.651Z",
+   "status": "ok",
+   "recordCount": 1521,
+   "changes": 1,
+   "error": null
+  },
   {
    "id": "ecb-fx@2026-11-10T00:09:56.264Z",
    "sourceId": "ecb-fx",
