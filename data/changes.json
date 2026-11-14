@@ -1,5 +1,38 @@
 [
  {
+  "at": "2026-11-14T22:29:23.592Z",
+  "dataset": "token",
+  "offeringId": "openrouter:qwen/qwen3.5-9b",
+  "label": "OpenRouter · qwen/qwen3.5-9b",
+  "kind": "price-change",
+  "field": "input",
+  "oldValue": 0.083,
+  "newValue": 0.14,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-14T22:29:23.592Z",
+  "dataset": "token",
+  "offeringId": "openrouter:qwen/qwen3.5-9b",
+  "label": "OpenRouter · qwen/qwen3.5-9b",
+  "kind": "price-change",
+  "field": "output",
+  "oldValue": 0.122,
+  "newValue": 0.206,
+  "sourceId": "openrouter"
+ },
+ {
+  "at": "2026-11-14T22:29:23.592Z",
+  "dataset": "token",
+  "offeringId": "openrouter:qwen/qwen3.5-9b",
+  "label": "OpenRouter · qwen/qwen3.5-9b",
+  "kind": "price-change",
+  "field": "cacheRead",
+  "oldValue": 0.074,
+  "newValue": 0.126,
+  "sourceId": "openrouter"
+ },
+ {
   "at": "2026-11-14T18:32:04.047Z",
   "dataset": "gpu",
   "offeringId": "vast:H100 SXM",
@@ -21964,39 +21997,6 @@
   "field": "min",
   "oldValue": 0.5356,
   "newValue": 0.5363,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-11-04T11:37:49.821Z",
-  "dataset": "gpu",
-  "offeringId": "vast:L40S",
-  "label": "Vast.ai marketplace · L40S 48GB · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "p75",
-  "oldValue": 0.8011,
-  "newValue": 0.8013,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-11-04T11:37:49.821Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 S",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Server · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "median",
-  "oldValue": 1.7009,
-  "newValue": 1.7336,
-  "sourceId": "vast"
- },
- {
-  "at": "2026-11-04T11:37:49.821Z",
-  "dataset": "gpu",
-  "offeringId": "vast:RTX PRO 6000 S",
-  "label": "Vast.ai marketplace · RTX PRO 6000 Server · global (mixed host locations)",
-  "kind": "price-change",
-  "field": "min",
-  "oldValue": 1.4855,
-  "newValue": 1.5867,
   "sourceId": "vast"
  }
 ]

@@ -5051,3 +5051,4 @@
 {"offeringId":"openrouter:qwen/qwen3.5-9b","observedAt":"2026-11-14T18:09:57.981Z","hash":"304bc240f5e76286","origin":"live","values":{"input":0.083,"output":0.122,"cacheRead":0.074,"cacheWrite":null,"batchInput":null,"batchOutput":null}}
 {"offeringId":"openrouter:openai/gpt-oss-20b","observedAt":"2026-11-14T18:09:57.981Z","hash":"d5d272255ed681cc","origin":"live","values":{"input":0.03,"output":0.13,"cacheRead":0.03,"cacheWrite":null,"batchInput":null,"batchOutput":null}}
 {"offeringId":"openrouter:deepseek/deepseek-r1-0528","observedAt":"2026-11-14T18:09:57.981Z","hash":"3aab1174651f4b89","origin":"live","values":{"input":0.571,"output":2.286,"cacheRead":null,"cacheWrite":null,"batchInput":null,"batchOutput":null}}
+{"offeringId":"openrouter:qwen/qwen3.5-9b","observedAt":"2026-11-14T22:29:23.592Z","hash":"88cade9676dc0e0b","origin":"live","values":{"input":0.14,"output":0.206,"cacheRead":0.126,"cacheWrite":null,"batchInput":null,"batchOutput":null}}
