@@ -735,11 +735,11 @@
 {"date":"2026-11-19","dataset":"gpu","key":"gpu:RTX 5090:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.66725,"p25":0.66725,"median":0.66725,"p75":0.66725,"max":0.66725},"origin":"live"}
 {"date":"2026-11-19","dataset":"gpu","key":"gpu:RTX 6000 Ada:marketplace","metric":"perGpuHour","stats":{"n":1,"min":0.6948,"p25":0.6948,"median":0.6948,"p75":0.6948,"max":0.6948},"origin":"live"}
 {"date":"2026-11-19","dataset":"gpu","key":"gpu:RTX PRO 6000:marketplace","metric":"perGpuHour","stats":{"n":2,"min":1.6015,"p25":1.6346,"median":1.6677,"p75":1.7008,"max":1.7339},"origin":"live"}
-{"date":"2026-11-19","dataset":"token","key":"token:cloud-platform","metric":"input","stats":{"n":617,"min":0.035,"p25":0.165,"median":0.5,"p75":1.75,"max":16},"origin":"live"}
-{"date":"2026-11-19","dataset":"token","key":"token:cloud-platform","metric":"output","stats":{"n":617,"min":0.04,"p25":0.5,"median":2.22,"p75":9.71,"max":80},"origin":"live"}
-{"date":"2026-11-19","dataset":"token","key":"token:direct","metric":"input","stats":{"n":338,"min":0.0375,"p25":0.3,"median":1.25,"p75":2,"max":30},"origin":"live"}
-{"date":"2026-11-19","dataset":"token","key":"token:direct","metric":"output","stats":{"n":338,"min":0.1,"p25":1.2125,"median":3.75,"p75":10,"max":100},"origin":"live"}
+{"date":"2026-11-19","dataset":"token","key":"token:cloud-platform","metric":"input","stats":{"n":618,"min":0.035,"p25":0.16625,"median":0.5,"p75":1.75,"max":16},"origin":"live"}
+{"date":"2026-11-19","dataset":"token","key":"token:cloud-platform","metric":"output","stats":{"n":618,"min":0.04,"p25":0.5,"median":2.22,"p75":9.9275,"max":80},"origin":"live"}
+{"date":"2026-11-19","dataset":"token","key":"token:direct","metric":"input","stats":{"n":339,"min":0.0375,"p25":0.3,"median":1.25,"p75":2,"max":30},"origin":"live"}
+{"date":"2026-11-19","dataset":"token","key":"token:direct","metric":"output","stats":{"n":339,"min":0.1,"p25":1.225,"median":3.75,"p75":10,"max":100},"origin":"live"}
 {"date":"2026-11-19","dataset":"token","key":"token:openrouter","metric":"input","stats":{"n":453,"min":0.015,"p25":0.15,"median":0.5,"p75":1.75,"max":30},"origin":"live"}
 {"date":"2026-11-19","dataset":"token","key":"token:openrouter","metric":"output","stats":{"n":453,"min":0.03,"p25":0.6,"median":2.2,"p75":7.5,"max":180},"origin":"live"}
 {"date":"2026-11-19","dataset":"token","key":"token:third-party-host","metric":"input","stats":{"n":850,"min":0.001,"p25":0.15,"median":0.3,"p75":0.9,"max":16.5},"origin":"live"}
-{"date":"2026-11-19","dataset":"token","key":"token:third-party-host","metric":"output","stats":{"n":850,"min":0.001,"p25":0.2175,"median":0.9,"p75":2.2,"max":82.5},"origin":"live"}
+{"date":"2026-11-19","dataset":"token","key":"token:third-party-host","metric":"output","stats":{"n":850,"min":0.001,"p25":0.21,"median":0.9,"p75":2.2,"max":82.5},"origin":"live"}
