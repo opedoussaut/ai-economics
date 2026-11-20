@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-19T21:00:27.437Z",
+ "generatedAt": "2026-11-20T02:39:38.329Z",
  "sources": {
   "azure": {
    "fetchedAt": "2026-11-19T20:42:31.437Z",
@@ -9,7 +9,7 @@
    "recordCount": 265
   },
   "vast": {
-   "fetchedAt": "2026-11-19T21:00:27.437Z",
+   "fetchedAt": "2026-11-20T02:39:38.329Z",
    "upstreamVersion": null,
    "url": "https://console.vast.ai/api/v0/bundles/",
    "recordCount": 15
@@ -8785,21 +8785,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 20,
-    "min": 0.3878,
-    "p25": 0.580625,
-    "median": 0.60225,
-    "p75": 0.68695,
-    "max": 0.8689
+    "n": 30,
+    "min": 0.5215,
+    "p25": 0.61615,
+    "median": 0.8007,
+    "p75": 0.803,
+    "max": 1.3984
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:A100 SXM4",
@@ -8825,21 +8825,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 35,
-    "min": 0.5344,
-    "p25": 0.7489,
-    "median": 0.8426,
-    "p75": 1.17475,
-    "max": 1.8517
+    "n": 49,
+    "min": 0.4011,
+    "p25": 0.6681,
+    "median": 0.8452,
+    "p75": 1.2181,
+    "max": 1.8237
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:B200",
@@ -8865,21 +8865,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 18,
+    "n": 13,
     "min": 6.8764,
     "p25": 8.7388,
     "median": 8.7401,
-    "p75": 9.20965,
-    "max": 11.8854
+    "p75": 8.7503,
+    "max": 8.7505
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:B300",
@@ -8905,21 +8905,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 5,
+    "n": 13,
     "min": 9.9385,
-    "p25": 9.9396,
-    "median": 11.8753,
-    "p75": 11.8757,
-    "max": 11.8764
+    "p25": 11.2504,
+    "median": 11.7008,
+    "p75": 11.8764,
+    "max": 12.0016
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:H100 NVL",
@@ -8945,21 +8945,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 5,
-    "min": 3.1342,
-    "p25": 3.2689,
-    "median": 3.7363,
-    "p75": 3.7409,
-    "max": 4.7659
+    "n": 4,
+    "min": 3.0531,
+    "p25": 3.053925,
+    "median": 3.2349,
+    "p75": 3.53085,
+    "max": 3.8766
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:H100 PCIE",
@@ -8985,21 +8985,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 4,
+    "n": 5,
     "min": 2.0022,
-    "p25": 2.310825,
-    "median": 2.47465,
-    "p75": 2.613525,
+    "p25": 2.5356,
+    "median": 2.6931,
+    "p75": 2.8466,
     "max": 2.8473
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:H100 SXM",
@@ -9025,21 +9025,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 10,
+    "n": 13,
     "min": 1.7339,
-    "p25": 1.90135,
-    "median": 3.1683,
-    "p75": 3.78135,
-    "max": 4.0807
+    "p25": 2.3356,
+    "median": 2.4778,
+    "p75": 4.0196,
+    "max": 5.2074
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:H200",
@@ -9065,21 +9065,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 17,
-    "min": 3.5563,
-    "p25": 4.2774,
-    "median": 5.2511,
-    "p75": 6.4999,
-    "max": 7.7645
+    "n": 15,
+    "min": 3.527,
+    "p25": 3.91865,
+    "median": 5.2637,
+    "p75": 6.589,
+    "max": 7.8961
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:H200 NVL",
@@ -9105,21 +9105,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 28,
-    "min": 3.6022,
-    "p25": 4.001925,
-    "median": 4.3495,
-    "p75": 5.0341,
-    "max": 6.0433
+    "n": 25,
+    "min": 3.6026,
+    "p25": 4.0011,
+    "median": 4.1756,
+    "p75": 4.6009,
+    "max": 6.46
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:L40S",
@@ -9145,21 +9145,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 15,
-    "min": 0.6015,
-    "p25": 0.735,
-    "median": 0.8022,
-    "p75": 0.87,
-    "max": 1.077
+    "n": 11,
+    "min": 0.4689,
+    "p25": 0.72155,
+    "median": 0.7741,
+    "p75": 0.8011,
+    "max": 0.8261
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:RTX 4090",
@@ -9186,20 +9186,20 @@
    "reserved3yPerHour": null,
    "perGpuHourStats": {
     "n": 64,
-    "min": 0.3681,
-    "p25": 0.4687,
-    "median": 0.5363,
-    "p75": 0.62245,
+    "min": 0.3887,
+    "p25": 0.4592,
+    "median": 0.4822,
+    "p75": 0.604625,
     "max": 0.8044
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:RTX 5090",
@@ -9226,20 +9226,20 @@
    "reserved3yPerHour": null,
    "perGpuHourStats": {
     "n": 64,
-    "min": 0.497,
-    "p25": 0.601925,
-    "median": 0.6716,
-    "p75": 0.8021,
-    "max": 1.1603
+    "min": 0.4581,
+    "p25": 0.5926,
+    "median": 0.67755,
+    "p75": 0.803875,
+    "max": 1.1611
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:RTX 6000Ada",
@@ -9265,21 +9265,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 10,
-    "min": 0.6022,
-    "p25": 0.674375,
-    "median": 0.7954,
-    "p75": 0.85125,
+    "n": 16,
+    "min": 0.5393,
+    "p25": 0.627225,
+    "median": 0.7486,
+    "p75": 0.8671,
     "max": 0.8704
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:RTX PRO 6000 S",
@@ -9305,21 +9305,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 49,
+    "n": 51,
     "min": 1.3339,
-    "p25": 1.6678,
-    "median": 1.7336,
-    "p75": 1.7378,
-    "max": 2.3258
+    "p25": 1.6775,
+    "median": 1.7341,
+    "p75": 1.8011,
+    "max": 2.4739
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   },
   {
    "id": "vast:RTX PRO 6000 WS",
@@ -9345,21 +9345,21 @@
    "reserved1yPerHour": null,
    "reserved3yPerHour": null,
    "perGpuHourStats": {
-    "n": 43,
-    "min": 1.3393,
-    "p25": 1.506,
-    "median": 1.6074,
-    "p75": 2.00555,
-    "max": 2.708
+    "n": 39,
+    "min": 1.383,
+    "p25": 1.55925,
+    "median": 1.7473,
+    "p75": 2.13475,
+    "max": 2.948
    },
    "sourceUrl": "https://cloud.vast.ai/create/",
    "collectedFrom": "https://console.vast.ai/api/v0/bundles/",
-   "observedAt": "2026-11-19T21:00:27.437Z",
-   "firstSeenAt": "2026-10-23T05:21:30.877Z",
+   "observedAt": "2026-11-20T02:39:38.329Z",
    "effectiveDate": null,
-   "listed": true,
+   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary.",
+   "firstSeenAt": "2026-10-23T05:21:30.877Z",
    "delistedAt": null,
-   "notes": "Statistics over verified, rentable on-demand offers at collection time. Per-GPU price = offer dph_total / GPUs in offer; includes host CPU/RAM share and default disk, excludes bandwidth. Host quality and reliability vary."
+   "listed": true
   }
  ]
 }

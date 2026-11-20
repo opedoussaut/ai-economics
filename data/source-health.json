@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-19T23:00:30.727Z",
+ "updatedAt": "2026-11-20T02:39:40.562Z",
  "sources": {
   "litellm": {
    "id": "litellm",
@@ -34,12 +34,12 @@
   },
   "vast": {
    "id": "vast",
-   "lastAttemptAt": "2026-11-19T21:00:27.437Z",
-   "lastSuccessAt": "2026-11-19T21:00:29.983Z",
+   "lastAttemptAt": "2026-11-20T02:39:38.329Z",
+   "lastSuccessAt": "2026-11-20T02:39:40.562Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 15,
-   "durationMs": 2545,
+   "durationMs": 2233,
    "consecutiveFailures": 0
   },
   "ecb-fx": {
@@ -54,6 +54,16 @@
   }
  },
  "jobs": [
+  {
+   "id": "vast@2026-11-20T02:39:38.329Z",
+   "sourceId": "vast",
+   "startedAt": "2026-11-20T02:39:38.329Z",
+   "finishedAt": "2026-11-20T02:39:40.562Z",
+   "status": "ok",
+   "recordCount": 15,
+   "changes": 39,
+   "error": null
+  },
   {
    "id": "ecb-fx@2026-11-19T23:00:30.226Z",
    "sourceId": "ecb-fx",
@@ -3042,16 +3052,6 @@
    "status": "ok",
    "recordCount": 265,
    "changes": 0,
-   "error": null
-  },
-  {
-   "id": "openrouter@2026-10-24T20:53:35.012Z",
-   "sourceId": "openrouter",
-   "startedAt": "2026-10-24T20:53:35.012Z",
-   "finishedAt": "2026-10-24T20:53:35.132Z",
-   "status": "ok",
-   "recordCount": 459,
-   "changes": 13,
    "error": null
   }
  ]
