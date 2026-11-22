@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-22T19:45:14.821Z",
+ "updatedAt": "2026-11-22T19:59:36.562Z",
  "sources": {
   "litellm": {
    "id": "litellm",
@@ -34,12 +34,12 @@
   },
   "vast": {
    "id": "vast",
-   "lastAttemptAt": "2026-11-22T12:01:02.223Z",
-   "lastSuccessAt": "2026-11-22T12:01:05.201Z",
+   "lastAttemptAt": "2026-11-22T19:59:34.027Z",
+   "lastSuccessAt": "2026-11-22T19:59:36.562Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 15,
-   "durationMs": 2977,
+   "durationMs": 2535,
    "consecutiveFailures": 0
   },
   "ecb-fx": {
@@ -54,6 +54,16 @@
   }
  },
  "jobs": [
+  {
+   "id": "vast@2026-11-22T19:59:34.027Z",
+   "sourceId": "vast",
+   "startedAt": "2026-11-22T19:59:34.027Z",
+   "finishedAt": "2026-11-22T19:59:36.562Z",
+   "status": "ok",
+   "recordCount": 15,
+   "changes": 39,
+   "error": null
+  },
   {
    "id": "azure@2026-11-22T19:45:13.901Z",
    "sourceId": "azure",
@@ -3042,16 +3052,6 @@
    "status": "ok",
    "recordCount": 15,
    "changes": 43,
-   "error": null
-  },
-  {
-   "id": "azure@2026-10-26T13:09:35.188Z",
-   "sourceId": "azure",
-   "startedAt": "2026-10-26T13:09:35.188Z",
-   "finishedAt": "2026-10-26T13:09:36.473Z",
-   "status": "ok",
-   "recordCount": 265,
-   "changes": 0,
    "error": null
   }
  ]
