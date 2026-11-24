@@ -1739,3 +1739,18 @@
 {"offeringId":"vast:RTX 6000Ada","observedAt":"2026-11-23T13:42:55.884Z","hash":"d7a57b3030feeb3d","origin":"live","values":{"median":0.7145,"min":0.5758,"p75":0.788625}}
 {"offeringId":"vast:RTX 5090","observedAt":"2026-11-23T13:42:55.884Z","hash":"2479b28f882b4ef1","origin":"live","values":{"median":0.6951,"min":0.4948,"p75":0.804075}}
 {"offeringId":"vast:RTX 4090","observedAt":"2026-11-23T13:42:55.884Z","hash":"86495be6a1577058","origin":"live","values":{"median":0.4723,"min":0.3757,"p75":0.536175}}
+{"offeringId":"vast:H100 SXM","observedAt":"2026-11-24T02:36:59.378Z","hash":"bd925da7b44dfc86","origin":"live","values":{"median":4.0468,"min":1.7344,"p75":4.12495}}
+{"offeringId":"vast:H100 PCIE","observedAt":"2026-11-24T02:36:59.378Z","hash":"38b6e3081612c147","origin":"live","values":{"median":2.7113,"min":2.6672,"p75":2.7241}}
+{"offeringId":"vast:H100 NVL","observedAt":"2026-11-24T02:36:59.378Z","hash":"19840906a8a58861","origin":"live","values":{"median":3.2486,"min":2.9411,"p75":3.4089}}
+{"offeringId":"vast:H200","observedAt":"2026-11-24T02:36:59.378Z","hash":"bc52c7058fed427d","origin":"live","values":{"median":5.796,"min":5.2643,"p75":6.197725}}
+{"offeringId":"vast:H200 NVL","observedAt":"2026-11-24T02:36:59.378Z","hash":"5fba07086c71aa82","origin":"live","values":{"median":4.0025,"min":2.7249,"p75":4.65565}}
+{"offeringId":"vast:B200","observedAt":"2026-11-24T02:36:59.378Z","hash":"0425670104c1a804","origin":"live","values":{"median":8.5086,"min":7.501,"p75":8.75045}}
+{"offeringId":"vast:B300","observedAt":"2026-11-24T02:36:59.378Z","hash":"7a99d25a65a86d6d","origin":"live","values":{"median":10.00155,"min":9.6508,"p75":11.250775}}
+{"offeringId":"vast:A100 SXM4","observedAt":"2026-11-24T02:36:59.378Z","hash":"31529672d97e4089","origin":"live","values":{"median":1.05025,"min":0.4272,"p75":1.175975}}
+{"offeringId":"vast:A100 PCIE","observedAt":"2026-11-24T02:36:59.378Z","hash":"febe51543802c9b4","origin":"live","values":{"median":0.6277,"min":0.3603,"p75":0.8074}}
+{"offeringId":"vast:L40S","observedAt":"2026-11-24T02:36:59.378Z","hash":"56cfad5df4faacaa","origin":"live","values":{"median":0.7739,"min":0.5341,"p75":0.826875}}
+{"offeringId":"vast:RTX PRO 6000 S","observedAt":"2026-11-24T02:36:59.378Z","hash":"2eda5cabffb8d3c8","origin":"live","values":{"median":1.70735,"min":1.3356,"p75":1.800475}}
+{"offeringId":"vast:RTX PRO 6000 WS","observedAt":"2026-11-24T02:36:59.378Z","hash":"ca6ea5e577974866","origin":"live","values":{"median":1.6022,"min":1.1381,"p75":2.13555}}
+{"offeringId":"vast:RTX 6000Ada","observedAt":"2026-11-24T02:36:59.378Z","hash":"04c46f20c1fa4798","origin":"live","values":{"median":0.6422,"min":0.5411,"p75":0.7613}}
+{"offeringId":"vast:RTX 5090","observedAt":"2026-11-24T02:36:59.378Z","hash":"2f3cc8bd8f3edd06","origin":"live","values":{"median":0.8028,"min":0.463,"p75":0.9356}}
+{"offeringId":"vast:RTX 4090","observedAt":"2026-11-24T02:36:59.378Z","hash":"005ae90bde791638","origin":"live","values":{"median":0.47835,"min":0.3725,"p75":0.601975}}
