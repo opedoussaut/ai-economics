@@ -1,35 +1,35 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-26T03:48:47.482Z",
+ "updatedAt": "2026-11-26T08:26:43.263Z",
  "sources": {
   "litellm": {
    "id": "litellm",
-   "lastAttemptAt": "2026-11-25T21:45:42.308Z",
-   "lastSuccessAt": "2026-11-25T21:45:42.708Z",
+   "lastAttemptAt": "2026-11-26T08:26:41.662Z",
+   "lastSuccessAt": "2026-11-26T08:26:41.971Z",
    "lastStatus": "ok",
    "lastError": null,
-   "recordCount": 1854,
-   "durationMs": 400,
+   "recordCount": 1858,
+   "durationMs": 309,
    "consecutiveFailures": 0
   },
   "openrouter": {
    "id": "openrouter",
-   "lastAttemptAt": "2026-11-25T21:45:42.708Z",
-   "lastSuccessAt": "2026-11-25T21:45:42.819Z",
+   "lastAttemptAt": "2026-11-26T08:26:41.971Z",
+   "lastSuccessAt": "2026-11-26T08:26:42.096Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 465,
-   "durationMs": 111,
+   "durationMs": 126,
    "consecutiveFailures": 0
   },
   "azure": {
    "id": "azure",
-   "lastAttemptAt": "2026-11-25T21:45:42.820Z",
-   "lastSuccessAt": "2026-11-25T21:45:43.900Z",
+   "lastAttemptAt": "2026-11-26T08:26:42.097Z",
+   "lastSuccessAt": "2026-11-26T08:26:43.263Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 265,
-   "durationMs": 1080,
+   "durationMs": 1166,
    "consecutiveFailures": 0
   },
   "vast": {
@@ -54,6 +54,36 @@
   }
  },
  "jobs": [
+  {
+   "id": "azure@2026-11-26T08:26:42.097Z",
+   "sourceId": "azure",
+   "startedAt": "2026-11-26T08:26:42.097Z",
+   "finishedAt": "2026-11-26T08:26:43.263Z",
+   "status": "ok",
+   "recordCount": 265,
+   "changes": 0,
+   "error": null
+  },
+  {
+   "id": "openrouter@2026-11-26T08:26:41.971Z",
+   "sourceId": "openrouter",
+   "startedAt": "2026-11-26T08:26:41.971Z",
+   "finishedAt": "2026-11-26T08:26:42.096Z",
+   "status": "ok",
+   "recordCount": 465,
+   "changes": 39,
+   "error": null
+  },
+  {
+   "id": "litellm@2026-11-26T08:26:41.662Z",
+   "sourceId": "litellm",
+   "startedAt": "2026-11-26T08:26:41.662Z",
+   "finishedAt": "2026-11-26T08:26:41.971Z",
+   "status": "ok",
+   "recordCount": 1858,
+   "changes": 4,
+   "error": null
+  },
   {
    "id": "vast@2026-11-26T03:48:44.835Z",
    "sourceId": "vast",
@@ -3022,36 +3052,6 @@
    "status": "ok",
    "recordCount": 450,
    "changes": 51,
-   "error": null
-  },
-  {
-   "id": "litellm@2026-10-28T22:39:00.802Z",
-   "sourceId": "litellm",
-   "startedAt": "2026-10-28T22:39:00.802Z",
-   "finishedAt": "2026-10-28T22:39:01.257Z",
-   "status": "ok",
-   "recordCount": 1532,
-   "changes": 22,
-   "error": null
-  },
-  {
-   "id": "ecb-fx@2026-10-28T20:58:05.414Z",
-   "sourceId": "ecb-fx",
-   "startedAt": "2026-10-28T20:58:05.414Z",
-   "finishedAt": "2026-10-28T20:58:05.854Z",
-   "status": "ok",
-   "recordCount": 29,
-   "changes": 0,
-   "error": null
-  },
-  {
-   "id": "vast@2026-10-28T20:35:41.063Z",
-   "sourceId": "vast",
-   "startedAt": "2026-10-28T20:35:41.063Z",
-   "finishedAt": "2026-10-28T20:35:42.573Z",
-   "status": "ok",
-   "recordCount": 12,
-   "changes": 37,
    "error": null
   }
  ]
