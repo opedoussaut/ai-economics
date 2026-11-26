@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-25T21:45:43.901Z",
+ "updatedAt": "2026-11-26T00:13:06.163Z",
  "sources": {
   "litellm": {
    "id": "litellm",
@@ -44,16 +44,26 @@
   },
   "ecb-fx": {
    "id": "ecb-fx",
-   "lastAttemptAt": "2026-11-25T00:34:41.383Z",
-   "lastSuccessAt": "2026-11-25T00:34:42.371Z",
+   "lastAttemptAt": "2026-11-26T00:13:05.664Z",
+   "lastSuccessAt": "2026-11-26T00:13:06.163Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 29,
-   "durationMs": 988,
+   "durationMs": 498,
    "consecutiveFailures": 0
   }
  },
  "jobs": [
+  {
+   "id": "ecb-fx@2026-11-26T00:13:05.664Z",
+   "sourceId": "ecb-fx",
+   "startedAt": "2026-11-26T00:13:05.664Z",
+   "finishedAt": "2026-11-26T00:13:06.163Z",
+   "status": "ok",
+   "recordCount": 29,
+   "changes": 0,
+   "error": null
+  },
   {
    "id": "azure@2026-11-25T21:45:42.820Z",
    "sourceId": "azure",
@@ -3042,16 +3052,6 @@
    "status": "ok",
    "recordCount": 11,
    "changes": 33,
-   "error": null
-  },
-  {
-   "id": "azure@2026-10-28T13:00:01.289Z",
-   "sourceId": "azure",
-   "startedAt": "2026-10-28T13:00:01.289Z",
-   "finishedAt": "2026-10-28T13:00:11.340Z",
-   "status": "ok",
-   "recordCount": 265,
-   "changes": 0,
    "error": null
   }
  ]
