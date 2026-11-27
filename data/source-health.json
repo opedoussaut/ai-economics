@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "updatedAt": "2026-11-26T21:39:20.607Z",
+ "updatedAt": "2026-11-27T00:30:33.595Z",
  "sources": {
   "litellm": {
    "id": "litellm",
@@ -44,16 +44,26 @@
   },
   "ecb-fx": {
    "id": "ecb-fx",
-   "lastAttemptAt": "2026-11-26T00:13:05.664Z",
-   "lastSuccessAt": "2026-11-26T00:13:06.163Z",
+   "lastAttemptAt": "2026-11-27T00:30:33.160Z",
+   "lastSuccessAt": "2026-11-27T00:30:33.595Z",
    "lastStatus": "ok",
    "lastError": null,
    "recordCount": 29,
-   "durationMs": 498,
+   "durationMs": 435,
    "consecutiveFailures": 0
   }
  },
  "jobs": [
+  {
+   "id": "ecb-fx@2026-11-27T00:30:33.160Z",
+   "sourceId": "ecb-fx",
+   "startedAt": "2026-11-27T00:30:33.160Z",
+   "finishedAt": "2026-11-27T00:30:33.595Z",
+   "status": "ok",
+   "recordCount": 29,
+   "changes": 0,
+   "error": null
+  },
   {
    "id": "azure@2026-11-26T21:38:04.914Z",
    "sourceId": "azure",
@@ -3042,16 +3052,6 @@
    "status": "ok",
    "recordCount": 265,
    "changes": 0,
-   "error": null
-  },
-  {
-   "id": "openrouter@2026-10-29T05:52:34.009Z",
-   "sourceId": "openrouter",
-   "startedAt": "2026-10-29T05:52:34.009Z",
-   "finishedAt": "2026-10-29T05:52:34.126Z",
-   "status": "ok",
-   "recordCount": 450,
-   "changes": 26,
    "error": null
   }
  ]
